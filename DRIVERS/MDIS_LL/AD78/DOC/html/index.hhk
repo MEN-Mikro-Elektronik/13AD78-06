@@ -1,0 +1,1225 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="__AD78_GetEntry"><param name="Name" value="__AD78_GetEntry"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a31"><param name="Name" value="ad78_drv.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a32"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="_AD78_GLOBNAME"><param name="Name" value="_AD78_GLOBNAME"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a30"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html"><param name="Name" value="_AD78C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a16"><param name="Name" value="AD78C_DOWN_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a0"><param name="Name" value="AD78C_FLAG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a36"><param name="Name" value="AD78C_ID"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a20"><param name="Name" value="AD78C_IN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a21"><param name="Name" value="AD78C_IN_MASK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a17"><param name="Name" value="AD78C_OFF_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a15"><param name="Name" value="AD78C_OFFACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a38"><param name="Name" value="AD78C_ON_ACK_MAX_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a3"><param name="Name" value="AD78C_ONACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a5"><param name="Name" value="AD78C_ONACK_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a4"><param name="Name" value="AD78C_ONACK_TOUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a22"><param name="Name" value="AD78C_OUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a23"><param name="Name" value="AD78C_OUT_MASK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a37"><param name="Name" value="AD78C_REV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41"><param name="Name" value="AD78C_SM_STATES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a18"><param name="Name" value="AD78C_STATUS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a19"><param name="Name" value="AD78C_STATUS_DOWN_EVT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a14"><param name="Name" value="AD78C_SWOFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a24"><param name="Name" value="AD78C_TEMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a25"><param name="Name" value="AD78C_TEMP_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a27"><param name="Name" value="AD78C_TEST1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a28"><param name="Name" value="AD78C_TEST1_NOTEST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a29"><param name="Name" value="AD78C_TEST1_TMODE1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a30"><param name="Name" value="AD78C_TEST2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a31"><param name="Name" value="AD78C_TEST2_RST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a32"><param name="Name" value="AD78C_TEST2_SWON"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a33"><param name="Name" value="AD78C_TEST3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a34"><param name="Name" value="AD78C_TEST3_PWR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a35"><param name="Name" value="AD78C_TEST4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a26"><param name="Name" value="AD78C_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a40"><param name="Name" value="AD78C_WAIT_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a13"><param name="Name" value="AD78C_WDOG_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a39"><param name="Name" value="AD78C_WDOG_MAX_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a7"><param name="Name" value="AD78C_WDOG_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a8"><param name="Name" value="AD78C_WDOG_ON"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a6"><param name="Name" value="AD78C_WDOG_STATE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a10"><param name="Name" value="AD78C_WDOG_TOUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a12"><param name="Name" value="AD78C_WDOG_TOUT_MAXMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a11"><param name="Name" value="AD78C_WDOG_TOUT_MINMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a9"><param name="Name" value="AD78C_WDOG_TRIG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a2"><param name="Name" value="AD78C_WOT_H"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a1"><param name="Name" value="AD78C_WOT_L"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a75"><param name="Name" value="SM_STATE_ERROR_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a69"><param name="Name" value="SM_STATE_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a71"><param name="Name" value="SM_STATE_ON"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a76"><param name="Name" value="SM_STATE_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a74"><param name="Name" value="SM_STATE_WAIT_OFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a73"><param name="Name" value="SM_STATE_WAIT_OFF_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a72"><param name="Name" value="SM_STATE_WAIT_SHUTDOWN_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a70"><param name="Name" value="SM_STATE_WAIT_SMB_ON_ACK"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html"><param name="Name" value="_AD78C_DOWN_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a3"><param name="Name" value="AD78C_DOWN_DELAY_MAXMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a0"><param name="Name" value="AD78C_DOWN_DELAY_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a1"><param name="Name" value="AD78C_DOWN_DELAY_MIN2MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a2"><param name="Name" value="AD78C_DOWN_DELAY_MINMODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html"><param name="Name" value="_AD78C_OFF_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a3"><param name="Name" value="AD78C_OFF_DELAY_MAXMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a0"><param name="Name" value="AD78C_OFF_DELAY_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a1"><param name="Name" value="AD78C_OFF_DELAY_MIN2MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a2"><param name="Name" value="AD78C_OFF_DELAY_MINMODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a4"><param name="Name" value="AD78C_ONACK_TOUT_MAXMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a3"><param name="Name" value="AD78C_ONACK_TOUT_MINMODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a2"><param name="Name" value="AD78C_ONACK_TOUT_NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a0"><param name="Name" value="AD78C_ONACK_TOUT_SEC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a1"><param name="Name" value="AD78C_ONACK_TOUT_SEC2MODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a2"><param name="Name" value="AD78C_ADC2INV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a0"><param name="Name" value="AD78C_ADC_REF_MV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a1"><param name="Name" value="AD78C_ADC_REF_VALUE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a3"><param name="Name" value="AD78C_INV2ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a7"><param name="Name" value="AD78C_TEMP_FROM_ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a6"><param name="Name" value="AD78C_TEMP_FROM_INV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a14"><param name="Name" value="AD78C_TEMP_HIGH_DEFAULT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a13"><param name="Name" value="AD78C_TEMP_HIGH_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a11"><param name="Name" value="AD78C_TEMP_HIGH_MAX_C"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a12"><param name="Name" value="AD78C_TEMP_HIGH_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a10"><param name="Name" value="AD78C_TEMP_HIGH_MIN_C"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a9"><param name="Name" value="AD78C_TEMP_TO_ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a8"><param name="Name" value="AD78C_TEMP_TO_INV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a5"><param name="Name" value="AD78C_VOLT_FROM_ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a4"><param name="Name" value="AD78C_VOLT_FROM_INV"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="_NO_LL_HANDLE"><param name="Name" value="_NO_LL_HANDLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a0"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html"><param name="Name" value="_PU05"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a2"><param name="Name" value="PU05C_CURR12V"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a17"><param name="Name" value="PU05C_CURR12VHI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a16"><param name="Name" value="PU05C_CURR12VLO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a0"><param name="Name" value="PU05C_CURR3V3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a13"><param name="Name" value="PU05C_CURR3V3HI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a12"><param name="Name" value="PU05C_CURR3V3LO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a1"><param name="Name" value="PU05C_CURR5V"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a15"><param name="Name" value="PU05C_CURR5VHI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a14"><param name="Name" value="PU05C_CURR5VLO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a19"><param name="Name" value="PU05C_POWER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a18"><param name="Name" value="PU05C_TEMP_ALERT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a5"><param name="Name" value="PU05C_VOLT12V"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a11"><param name="Name" value="PU05C_VOLT12VHI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a10"><param name="Name" value="PU05C_VOLT12VLO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a3"><param name="Name" value="PU05C_VOLT3V3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a7"><param name="Name" value="PU05C_VOLT3V3HI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a6"><param name="Name" value="PU05C_VOLT3V3LO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a4"><param name="Name" value="PU05C_VOLT5V"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a9"><param name="Name" value="PU05C_VOLT5VHI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a8"><param name="Name" value="PU05C_VOLT5VLO"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html"><param name="Name" value="AD78_BLK_DOWN_SIG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html#o0"><param name="Name" value="msec"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html#o1"><param name="Name" value="signal"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_BLK_DOWN_SIG_SET"><param name="Name" value="AD78_BLK_DOWN_SIG_SET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a20"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_BlockRead"><param name="Name" value="AD78_BlockRead"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a24"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_BlockWrite"><param name="Name" value="AD78_BlockWrite"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a25"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a2"><param name="Name" value="G_Path"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a4"><param name="Name" value="G_SigCountOthers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a3"><param name="Name" value="G_SigCountSdEvt"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a1"><param name="Name" value="IO_MAX_NBR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a10"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a0"><param name="Name" value="NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a6"><param name="Name" value="PrintMdisError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a7"><param name="Name" value="PrintUosError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a8"><param name="Name" value="ShowIo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a9"><param name="Name" value="SigHandler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a5"><param name="Name" value="usage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_DOWN_DELAY"><param name="Name" value="AD78_DOWN_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a7"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_DOWN_EVT"><param name="Name" value="AD78_DOWN_EVT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a9"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_DOWN_SIG_CLR"><param name="Name" value="AD78_DOWN_SIG_CLR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a10"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html"><param name="Name" value="ad78_drv.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a31"><param name="Name" value="__AD78_GetEntry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a0"><param name="Name" value="_NO_LL_HANDLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a24"><param name="Name" value="AD78_BlockRead"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a25"><param name="Name" value="AD78_BlockWrite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a19"><param name="Name" value="AD78_Exit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a23"><param name="Name" value="AD78_GetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a27"><param name="Name" value="AD78_Info"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a18"><param name="Name" value="AD78_Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a26"><param name="Name" value="AD78_Irq"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a20"><param name="Name" value="AD78_Read"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a22"><param name="Name" value="AD78_SetStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a21"><param name="Name" value="AD78_Write"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a4"><param name="Name" value="ADDRSPACE_COUNT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a5"><param name="Name" value="ADDRSPACE_SIZE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a30"><param name="Name" value="AlarmHandler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a2"><param name="Name" value="CH_BYTES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a1"><param name="Name" value="CH_NUMBER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a11"><param name="Name" value="CHAN_0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a12"><param name="Name" value="CHAN_1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a13"><param name="Name" value="CHAN_2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a29"><param name="Name" value="Cleanup"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a14"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a15"><param name="Name" value="DBH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a6"><param name="Name" value="DEV_ID_AD78"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a7"><param name="Name" value="DEV_ID_PU05"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a8"><param name="Name" value="DEV_ID_PU06"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a9"><param name="Name" value="DEV_ID_PU07"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a10"><param name="Name" value="DEV_ID_PU08"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a28"><param name="Name" value="Ident"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a17"><param name="Name" value="SMB_R_BYTE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a16"><param name="Name" value="SMB_W_BYTE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a3"><param name="Name" value="USE_IRQ"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html"><param name="Name" value="ad78_drv.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a32"><param name="Name" value="__AD78_GetEntry"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a30"><param name="Name" value="_AD78_GLOBNAME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a20"><param name="Name" value="AD78_BLK_DOWN_SIG_SET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a7"><param name="Name" value="AD78_DOWN_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a9"><param name="Name" value="AD78_DOWN_EVT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a10"><param name="Name" value="AD78_DOWN_SIG_CLR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a31"><param name="Name" value="AD78_GLOBNAME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a11"><param name="Name" value="AD78_IN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a12"><param name="Name" value="AD78_IN_MASK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a8"><param name="Name" value="AD78_OFF_DELAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a6"><param name="Name" value="AD78_OFFACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a1"><param name="Name" value="AD78_ONACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a3"><param name="Name" value="AD78_ONACK_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a2"><param name="Name" value="AD78_ONACK_TOUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a13"><param name="Name" value="AD78_OUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a15"><param name="Name" value="AD78_OUT_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a14"><param name="Name" value="AD78_OUT_LOW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a16"><param name="Name" value="AD78_OUT_MASK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a5"><param name="Name" value="AD78_SWOFF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a17"><param name="Name" value="AD78_TEMP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a18"><param name="Name" value="AD78_TEMP_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a29"><param name="Name" value="AD78_VARIANT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a19"><param name="Name" value="AD78_VOLTAGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a4"><param name="Name" value="AD78_WDOG_ERR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a0"><param name="Name" value="AD78_WOT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a33"><param name="Name" value="INT32_OR_64"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a35"><param name="Name" value="MDIS_PATH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a21"><param name="Name" value="PU05_CURR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a26"><param name="Name" value="PU05_CURR_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a25"><param name="Name" value="PU05_CURR_LOW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a28"><param name="Name" value="PU05_POWER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a27"><param name="Name" value="PU05_TEMP_ALERT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a22"><param name="Name" value="PU05_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a24"><param name="Name" value="PU05_VOLT_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a23"><param name="Name" value="PU05_VOLT_LOW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a34"><param name="Name" value="U_INT32_OR_64"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Exit"><param name="Name" value="AD78_Exit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a19"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_GetStat"><param name="Name" value="AD78_GetStat"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a23"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_GLOBNAME"><param name="Name" value="AD78_GLOBNAME"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a31"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_IN"><param name="Name" value="AD78_IN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a11"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_IN_MASK"><param name="Name" value="AD78_IN_MASK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a12"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Info"><param name="Name" value="AD78_Info"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a27"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Init"><param name="Name" value="AD78_Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a18"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Irq"><param name="Name" value="AD78_Irq"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a26"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OFF_DELAY"><param name="Name" value="AD78_OFF_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a8"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OFFACK"><param name="Name" value="AD78_OFFACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a6"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_ONACK"><param name="Name" value="AD78_ONACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a1"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_ONACK_ERR"><param name="Name" value="AD78_ONACK_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a3"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_ONACK_TOUT"><param name="Name" value="AD78_ONACK_TOUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a2"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OUT"><param name="Name" value="AD78_OUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a13"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OUT_HIGH"><param name="Name" value="AD78_OUT_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a15"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OUT_LOW"><param name="Name" value="AD78_OUT_LOW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a14"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_OUT_MASK"><param name="Name" value="AD78_OUT_MASK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a16"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Read"><param name="Name" value="AD78_Read"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a20"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_SetStat"><param name="Name" value="AD78_SetStat"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a22"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html"><param name="Name" value="ad78_simp.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a1"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a0"><param name="Name" value="PrintError"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_SWOFF"><param name="Name" value="AD78_SWOFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a5"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_TEMP"><param name="Name" value="AD78_TEMP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a17"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_TEMP_HIGH"><param name="Name" value="AD78_TEMP_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a18"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_VARIANT"><param name="Name" value="AD78_VARIANT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a29"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_VOLTAGE"><param name="Name" value="AD78_VOLTAGE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a19"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_WDOG_ERR"><param name="Name" value="AD78_WDOG_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a4"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html"><param name="Name" value="ad78_win.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a9"><param name="Name" value="ControlHandler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a1"><param name="Name" value="DBG_NAME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a13"><param name="Name" value="DbgWrite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a3"><param name="Name" value="DBGWRT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a6"><param name="Name" value="G_path"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a4"><param name="Name" value="G_serviceStatus"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a7"><param name="Name" value="G_ShutdownFromPsu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a5"><param name="Name" value="G_statusHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a14"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a2"><param name="Name" value="MAX_DEVNAME_NBR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a12"><param name="Name" value="PrintError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a10"><param name="Name" value="ServiceJob"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a8"><param name="Name" value="ServiceMain"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a0"><param name="Name" value="SLEEP_TIME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a11"><param name="Name" value="SystemShutdown"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_WOT"><param name="Name" value="AD78_WOT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a0"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_Write"><param name="Name" value="AD78_Write"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a21"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ADC2INV"><param name="Name" value="AD78C_ADC2INV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a2"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ADC_REF_MV"><param name="Name" value="AD78C_ADC_REF_MV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a0"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ADC_REF_VALUE"><param name="Name" value="AD78C_ADC_REF_VALUE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a1"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_DOWN_DELAY"><param name="Name" value="AD78C_DOWN_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a16"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_DOWN_DELAY_MAXMODE"><param name="Name" value="AD78C_DOWN_DELAY_MAXMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a3"><param name="Name" value="_AD78C_DOWN_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_DOWN_DELAY_MIN2MODE"><param name="Name" value="AD78C_DOWN_DELAY_MIN2MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a1"><param name="Name" value="_AD78C_DOWN_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_DOWN_DELAY_MIN"><param name="Name" value="AD78C_DOWN_DELAY_MIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a0"><param name="Name" value="_AD78C_DOWN_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_DOWN_DELAY_MINMODE"><param name="Name" value="AD78C_DOWN_DELAY_MINMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__DOWN__DELAY.html#a2"><param name="Name" value="_AD78C_DOWN_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_FLAG"><param name="Name" value="AD78C_FLAG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a0"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ID"><param name="Name" value="AD78C_ID"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a36"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_IN"><param name="Name" value="AD78C_IN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a20"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_IN_MASK"><param name="Name" value="AD78C_IN_MASK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a21"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_INV2ADC"><param name="Name" value="AD78C_INV2ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a3"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFF_DELAY"><param name="Name" value="AD78C_OFF_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a17"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFF_DELAY_MAXMODE"><param name="Name" value="AD78C_OFF_DELAY_MAXMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a3"><param name="Name" value="_AD78C_OFF_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFF_DELAY_MIN2MODE"><param name="Name" value="AD78C_OFF_DELAY_MIN2MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a1"><param name="Name" value="_AD78C_OFF_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFF_DELAY_MIN"><param name="Name" value="AD78C_OFF_DELAY_MIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a0"><param name="Name" value="_AD78C_OFF_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFF_DELAY_MINMODE"><param name="Name" value="AD78C_OFF_DELAY_MINMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__OFF__DELAY.html#a2"><param name="Name" value="_AD78C_OFF_DELAY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OFFACK"><param name="Name" value="AD78C_OFFACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a15"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ON_ACK_MAX_ERR"><param name="Name" value="AD78C_ON_ACK_MAX_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a38"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK"><param name="Name" value="AD78C_ONACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a3"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_ERR"><param name="Name" value="AD78C_ONACK_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a5"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT"><param name="Name" value="AD78C_ONACK_TOUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a4"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT_MAXMODE"><param name="Name" value="AD78C_ONACK_TOUT_MAXMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a4"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT_MINMODE"><param name="Name" value="AD78C_ONACK_TOUT_MINMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a3"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT_NONE"><param name="Name" value="AD78C_ONACK_TOUT_NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a2"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT_SEC2MODE"><param name="Name" value="AD78C_ONACK_TOUT_SEC2MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a1"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_ONACK_TOUT_SEC"><param name="Name" value="AD78C_ONACK_TOUT_SEC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__ONACK__TOUT.html#a0"><param name="Name" value="_AD78C_ONACK_TOUT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OUT"><param name="Name" value="AD78C_OUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a22"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_OUT_MASK"><param name="Name" value="AD78C_OUT_MASK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a23"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_REV"><param name="Name" value="AD78C_REV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a37"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_SM_STATES"><param name="Name" value="AD78C_SM_STATES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_STATUS"><param name="Name" value="AD78C_STATUS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a18"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_STATUS_DOWN_EVT"><param name="Name" value="AD78C_STATUS_DOWN_EVT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a19"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_SWOFF"><param name="Name" value="AD78C_SWOFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a14"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP"><param name="Name" value="AD78C_TEMP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a24"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_FROM_ADC"><param name="Name" value="AD78C_TEMP_FROM_ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a7"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_FROM_INV"><param name="Name" value="AD78C_TEMP_FROM_INV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a6"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH"><param name="Name" value="AD78C_TEMP_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a25"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH_DEFAULT"><param name="Name" value="AD78C_TEMP_HIGH_DEFAULT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a14"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH_MAX"><param name="Name" value="AD78C_TEMP_HIGH_MAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a13"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH_MAX_C"><param name="Name" value="AD78C_TEMP_HIGH_MAX_C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a11"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH_MIN"><param name="Name" value="AD78C_TEMP_HIGH_MIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a12"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_HIGH_MIN_C"><param name="Name" value="AD78C_TEMP_HIGH_MIN_C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a10"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_TO_ADC"><param name="Name" value="AD78C_TEMP_TO_ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a9"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a31"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEMP_TO_INV"><param name="Name" value="AD78C_TEMP_TO_INV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a8"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a30"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST1"><param name="Name" value="AD78C_TEST1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a27"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST1_NOTEST"><param name="Name" value="AD78C_TEST1_NOTEST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a28"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST1_TMODE1"><param name="Name" value="AD78C_TEST1_TMODE1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a29"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST2"><param name="Name" value="AD78C_TEST2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a30"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST2_RST"><param name="Name" value="AD78C_TEST2_RST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a31"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST2_SWON"><param name="Name" value="AD78C_TEST2_SWON"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a32"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST3"><param name="Name" value="AD78C_TEST3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a33"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST3_PWR"><param name="Name" value="AD78C_TEST3_PWR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a34"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_TEST4"><param name="Name" value="AD78C_TEST4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a35"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_VOLT"><param name="Name" value="AD78C_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a26"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_VOLT_FROM_ADC"><param name="Name" value="AD78C_VOLT_FROM_ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a5"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_VOLT_FROM_INV"><param name="Name" value="AD78C_VOLT_FROM_INV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C__TEMP__VOLT.html#a4"><param name="Name" value="_AD78C_TEMP_VOLT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WAIT_OFF"><param name="Name" value="AD78C_WAIT_OFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a40"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_ERR"><param name="Name" value="AD78C_WDOG_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a13"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_MAX_ERR"><param name="Name" value="AD78C_WDOG_MAX_ERR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a39"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_OFF"><param name="Name" value="AD78C_WDOG_OFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a7"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_ON"><param name="Name" value="AD78C_WDOG_ON"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a8"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_STATE"><param name="Name" value="AD78C_WDOG_STATE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a6"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_TOUT"><param name="Name" value="AD78C_WDOG_TOUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a10"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_TOUT_MAXMODE"><param name="Name" value="AD78C_WDOG_TOUT_MAXMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a12"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_TOUT_MINMODE"><param name="Name" value="AD78C_WDOG_TOUT_MINMODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a11"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WDOG_TRIG"><param name="Name" value="AD78C_WDOG_TRIG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a9"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WOT_H"><param name="Name" value="AD78C_WOT_H"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a2"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78C_WOT_L"><param name="Name" value="AD78C_WOT_L"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a1"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ADC2V"><param name="Name" value="ADC2V"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a22"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ADC_MAX_VAL"><param name="Name" value="ADC_MAX_VAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a21"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ADC_REF_MV"><param name="Name" value="ADC_REF_MV"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a20"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ADDRSPACE_COUNT"><param name="Name" value="ADDRSPACE_COUNT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a4"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ADDRSPACE_SIZE"><param name="Name" value="ADDRSPACE_SIZE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a5"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AlarmHandler"><param name="Name" value="AlarmHandler"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a30"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="alarmHdl"><param name="Name" value="alarmHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o11"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CH_BYTES"><param name="Name" value="CH_BYTES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a2"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CH_NUMBER"><param name="Name" value="CH_NUMBER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a1"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHAN_0"><param name="Name" value="CHAN_0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a11"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHAN_1"><param name="Name" value="CHAN_1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a12"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHAN_2"><param name="Name" value="CHAN_2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a13"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHAN_MAX"><param name="Name" value="CHAN_MAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a1"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHK"><param name="Name" value="CHK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a2"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CHK_CHAN"><param name="Name" value="CHK_CHAN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a3"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Cleanup"><param name="Name" value="Cleanup"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a29"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ControlHandler"><param name="Name" value="ControlHandler"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a9"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_MYLEVEL"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a14"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_NAME"><param name="Name" value="DBG_NAME"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a1"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="dbgHdl"><param name="Name" value="dbgHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o7"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="dbgLevel"><param name="Name" value="dbgLevel"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o6"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DbgWrite"><param name="Name" value="DbgWrite"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a13"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBGWRT"><param name="Name" value="DBGWRT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a3"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBH"><param name="Name" value="DBH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a15"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="descHdl"><param name="Name" value="descHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o3"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEV_ID_AD78"><param name="Name" value="DEV_ID_AD78"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a6"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEV_ID_PU05"><param name="Name" value="DEV_ID_PU05"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a7"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEV_ID_PU06"><param name="Name" value="DEV_ID_PU06"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a8"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEV_ID_PU07"><param name="Name" value="DEV_ID_PU07"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a9"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEV_ID_PU08"><param name="Name" value="DEV_ID_PU08"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a10"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_Path"><param name="Name" value="G_Path"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a2"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_path"><param name="Name" value="G_path"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a6"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_Path"><param name="Name" value="G_Path"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a4"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_rail"><param name="Name" value="G_rail"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a5"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_serviceStatus"><param name="Name" value="G_serviceStatus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a4"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_ShutdownFromPsu"><param name="Name" value="G_ShutdownFromPsu"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a7"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_SigCountOthers"><param name="Name" value="G_SigCountOthers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a4"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_SigCountSdEvt"><param name="Name" value="G_SigCountSdEvt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a3"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_statusHdl"><param name="Name" value="G_statusHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a5"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="idCheck"><param name="Name" value="idCheck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o5"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="Ident"><param name="Name" value="Ident"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a28"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="idFuncTbl"><param name="Name" value="idFuncTbl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o4"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="INT32_OR_64"><param name="Name" value="INT32_OR_64"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a33"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="IO_MAX_NBR"><param name="Name" value="IO_MAX_NBR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a1"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="irqHdl"><param name="Name" value="irqHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o2"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html"><param name="Name" value="LL_HANDLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o11"><param name="Name" value="alarmHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o7"><param name="Name" value="dbgHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o6"><param name="Name" value="dbgLevel"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o3"><param name="Name" value="descHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o5"><param name="Name" value="idCheck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o4"><param name="Name" value="idFuncTbl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o2"><param name="Name" value="irqHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o0"><param name="Name" value="memAlloc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o1"><param name="Name" value="osHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o10"><param name="Name" value="sigHdl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o9"><param name="Name" value="smbAddr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o8"><param name="Name" value="smbH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o12"><param name="Name" value="wdState"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="M_CH_PROFILE_WDOG"><param name="Name" value="M_CH_PROFILE_WDOG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a0"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="main"><param name="Name" value="main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a10"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a1"><param name="Name" value="ad78_simp.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a14"><param name="Name" value="ad78_win.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a10"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a2"><param name="Name" value="wdog_test.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MAX_DEVNAME_NBR"><param name="Name" value="MAX_DEVNAME_NBR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a2"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MDIS_PATH"><param name="Name" value="MDIS_PATH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a35"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="memAlloc"><param name="Name" value="memAlloc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o0"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="msec"><param name="Name" value="msec"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html#o0"><param name="Name" value="AD78_BLK_DOWN_SIG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="NONE"><param name="Name" value="NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a0"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a0"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="osHdl"><param name="Name" value="osHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o1"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PrintError"><param name="Name" value="PrintError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a0"><param name="Name" value="ad78_simp.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a12"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PrintMdisError"><param name="Name" value="PrintMdisError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a6"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a7"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a1"><param name="Name" value="wdog_test.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PrintUosError"><param name="Name" value="PrintUosError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a7"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a1"><param name="Name" value="CHAN_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a2"><param name="Name" value="CHK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a3"><param name="Name" value="CHK_CHAN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a4"><param name="Name" value="G_Path"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a5"><param name="Name" value="G_rail"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a10"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a0"><param name="Name" value="NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a7"><param name="Name" value="PrintMdisError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a9"><param name="Name" value="showInfo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a8"><param name="Name" value="ShowIo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a6"><param name="Name" value="usage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_CURR"><param name="Name" value="PU05_CURR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a21"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_CURR_HIGH"><param name="Name" value="PU05_CURR_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a26"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_CURR_LOW"><param name="Name" value="PU05_CURR_LOW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a25"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_POWER"><param name="Name" value="PU05_POWER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a28"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_TEMP_ALERT"><param name="Name" value="PU05_TEMP_ALERT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a27"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_VOLT"><param name="Name" value="PU05_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a22"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_VOLT_HIGH"><param name="Name" value="PU05_VOLT_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a24"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05_VOLT_LOW"><param name="Name" value="PU05_VOLT_LOW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a23"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html"><param name="Name" value="pu05c.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a31"><param name="Name" value="AD78C_TEMP_TO_ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a30"><param name="Name" value="AD78C_TEMP_TO_INV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a22"><param name="Name" value="ADC2V"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a21"><param name="Name" value="ADC_MAX_VAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a20"><param name="Name" value="ADC_REF_MV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a28"><param name="Name" value="PU05C_12V_CURR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a25"><param name="Name" value="PU05C_12V_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a26"><param name="Name" value="PU05C_3V3_CURR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a23"><param name="Name" value="PU05C_3V3_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a27"><param name="Name" value="PU05C_5V_CURR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a24"><param name="Name" value="PU05C_5V_VOLT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a29"><param name="Name" value="PU05C_TEMP_FROM_ADC"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_12V_CURR"><param name="Name" value="PU05C_12V_CURR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a28"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_12V_VOLT"><param name="Name" value="PU05C_12V_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a25"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_3V3_CURR"><param name="Name" value="PU05C_3V3_CURR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a26"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_3V3_VOLT"><param name="Name" value="PU05C_3V3_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a23"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_5V_CURR"><param name="Name" value="PU05C_5V_CURR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a27"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_5V_VOLT"><param name="Name" value="PU05C_5V_VOLT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a24"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR12V"><param name="Name" value="PU05C_CURR12V"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a2"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR12VHI"><param name="Name" value="PU05C_CURR12VHI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a17"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR12VLO"><param name="Name" value="PU05C_CURR12VLO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a16"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR3V3"><param name="Name" value="PU05C_CURR3V3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a0"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR3V3HI"><param name="Name" value="PU05C_CURR3V3HI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a13"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR3V3LO"><param name="Name" value="PU05C_CURR3V3LO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a12"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR5V"><param name="Name" value="PU05C_CURR5V"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a1"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR5VHI"><param name="Name" value="PU05C_CURR5VHI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a15"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_CURR5VLO"><param name="Name" value="PU05C_CURR5VLO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a14"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_POWER"><param name="Name" value="PU05C_POWER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a19"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_TEMP_ALERT"><param name="Name" value="PU05C_TEMP_ALERT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a18"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_TEMP_FROM_ADC"><param name="Name" value="PU05C_TEMP_FROM_ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05c_8h.html#a29"><param name="Name" value="pu05c.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT12V"><param name="Name" value="PU05C_VOLT12V"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a5"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT12VHI"><param name="Name" value="PU05C_VOLT12VHI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a11"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT12VLO"><param name="Name" value="PU05C_VOLT12VLO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a10"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT3V3"><param name="Name" value="PU05C_VOLT3V3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a3"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT3V3HI"><param name="Name" value="PU05C_VOLT3V3HI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a7"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT3V3LO"><param name="Name" value="PU05C_VOLT3V3LO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a6"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT5V"><param name="Name" value="PU05C_VOLT5V"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a4"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT5VHI"><param name="Name" value="PU05C_VOLT5VHI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a9"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PU05C_VOLT5VLO"><param name="Name" value="PU05C_VOLT5VLO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a8"><param name="Name" value="_PU05"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ServiceJob"><param name="Name" value="ServiceJob"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a10"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ServiceMain"><param name="Name" value="ServiceMain"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a8"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="showInfo"><param name="Name" value="showInfo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a9"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ShowIo"><param name="Name" value="ShowIo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a8"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a8"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SigHandler"><param name="Name" value="SigHandler"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a9"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="sigHdl"><param name="Name" value="sigHdl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o10"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="signal"><param name="Name" value="signal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html#o1"><param name="Name" value="AD78_BLK_DOWN_SIG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SLEEP_TIME"><param name="Name" value="SLEEP_TIME"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a0"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_ERROR_OFF"><param name="Name" value="SM_STATE_ERROR_OFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a75"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_OFF"><param name="Name" value="SM_STATE_OFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a69"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_ON"><param name="Name" value="SM_STATE_ON"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a71"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_RESET"><param name="Name" value="SM_STATE_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a76"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_WAIT_OFF"><param name="Name" value="SM_STATE_WAIT_OFF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a74"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_WAIT_OFF_DELAY"><param name="Name" value="SM_STATE_WAIT_OFF_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a73"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_WAIT_SHUTDOWN_DELAY"><param name="Name" value="SM_STATE_WAIT_SHUTDOWN_DELAY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a72"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_WAIT_SMB_ON_ACK"><param name="Name" value="SM_STATE_WAIT_SMB_ON_ACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group____AD78C.html#a41a70"><param name="Name" value="_AD78C"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SMB_R_BYTE"><param name="Name" value="SMB_R_BYTE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a17"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SMB_W_BYTE"><param name="Name" value="SMB_W_BYTE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a16"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="smbAddr"><param name="Name" value="smbAddr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o9"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="smbH"><param name="Name" value="smbH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o8"><param name="Name" value="LL_HANDLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SystemShutdown"><param name="Name" value="SystemShutdown"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a11"><param name="Name" value="ad78_win.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="U_INT32_OR_64"><param name="Name" value="U_INT32_OR_64"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a34"><param name="Name" value="ad78_drv.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="usage"><param name="Name" value="usage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a5"><param name="Name" value="ad78_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a6"><param name="Name" value="pu05_ctrl.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a0"><param name="Name" value="wdog_test.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="USE_IRQ"><param name="Name" value="USE_IRQ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a3"><param name="Name" value="ad78_drv.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html"><param name="Name" value="wdog.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a0"><param name="Name" value="M_CH_PROFILE_WDOG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a6"><param name="Name" value="WDOG_SHOT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a1"><param name="Name" value="WDOG_START"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a5"><param name="Name" value="WDOG_STATUS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a3"><param name="Name" value="WDOG_STOP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a4"><param name="Name" value="WDOG_TIME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a2"><param name="Name" value="WDOG_TRIG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_SHOT"><param name="Name" value="WDOG_SHOT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a6"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_START"><param name="Name" value="WDOG_START"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a1"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_STATUS"><param name="Name" value="WDOG_STATUS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a5"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_STOP"><param name="Name" value="WDOG_STOP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a3"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html"><param name="Name" value="wdog_test.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a2"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a1"><param name="Name" value="PrintMdisError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a0"><param name="Name" value="usage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TIME"><param name="Name" value="WDOG_TIME"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a4"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TRIG"><param name="Name" value="WDOG_TRIG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a2"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wdState"><param name="Name" value="wdState"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o12"><param name="Name" value="LL_HANDLE"></OBJECT>
+</UL>

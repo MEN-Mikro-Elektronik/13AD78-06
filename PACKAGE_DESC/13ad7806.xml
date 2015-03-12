@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="packagedesc.xsd">
+	<name>13ad7806</name>
+	<description>MDIS5 AD78 driver package</description>
+	<date>2010-10-08</date>
+	<revision>1.6</revision>
+	<docroot>DRIVERS/MDIS_LL/AD78/DOC/html/index.html</docroot>
+	<!-- Models -->
+	<modellist>
+		<model>
+			<hwname>AD78</hwname>
+      <modelname>AD78</modelname>
+      <description>AD78 or PUxx PSU on backplane SMBus</description>
+			<devtype>MDIS</devtype>
+            <busif>SMBus</busif>
+			<settinglist>
+				<setting>
+					<name>SMB_BUSNBR</name>
+					<description>SMBus bus number</description>
+					<type>U_INT32</type>
+					<value>0</value>
+					<defaultvalue>0</defaultvalue>
+				</setting>
+				<setting hidden="true">
+					<name>SMB_DEVADDR</name>
+					<description>SMBus address of AD78</description>
+					<type>U_INT32</type>
+					<defaultvalue>0x12</defaultvalue>
+				</setting>
+			</settinglist>
+		</model>
+	</modellist>
+	<settinglist>
+    <setting>
+      <name>ID_CHECK</name>
+      <description>Define wether AD78 controller ID is checked</description>
+      <type>U_INT32</type>
+      <defaultvalue>1</defaultvalue>
+      <choises>
+        <choise>
+          <value>1</value>
+          <description>enable</description>
+        </choise>
+        <choise>
+          <value>0</value>
+          <description>disable -- ignore ID</description>
+        </choise>
+      </choises>
+    </setting>
+    <setting>
+			<name>ONACK_TOUT</name>
+			<description>ON acknowledge timeout mode</description>
+			<type>U_INT32</type>
+			<defaultvalue>0</defaultvalue>
+      <choises>
+        <choise>
+          <value>0</value>
+          <description>none timeout</description>
+        </choise>
+        <choise>
+          <value>1</value>
+          <description>1sec</description>
+        </choise>
+        <choise>
+          <value>2</value>
+          <description>2sec</description>
+        </choise>
+        <choise>
+          <value>3</value>
+          <description>4sec</description>
+        </choise>
+        <choise>
+          <value>4</value>
+          <description>8sec</description>
+        </choise>
+        <choise>
+          <value>5</value>
+          <description>16sec</description>
+        </choise>
+        <choise>
+          <value>6</value>
+          <description>32sec</description>
+        </choise>
+        <choise>
+          <value>7</value>
+          <description>1min 4sec</description>
+        </choise>
+        <choise>
+          <value>8</value>
+          <description>2min 8sec</description>
+        </choise>
+        <choise>
+          <value>9</value>
+          <description>4min 16sec</description>
+        </choise>
+        <choise>
+          <value>10</value>
+          <description>8min 32sec</description>
+        </choise>
+        <choise>
+          <value>11</value>
+          <description>17min 4sec</description>
+        </choise>
+      </choises>
+    </setting>
+    <setting>
+      <name>WDOG_TOUT</name>
+      <description>Watchdog timeout in 100ms units</description>
+      <type>U_INT32</type>
+      <defaultvalue>255</defaultvalue>
+      <minvalue>1</minvalue>
+      <maxvalue>255</maxvalue>
+    </setting>
+    <setting>
+      <name>DOWN_DELAY</name>
+      <description>Shutdown delay mode</description>
+      <type>U_INT32</type>
+      <defaultvalue>0</defaultvalue>
+      <choises>
+        <choise>
+          <value>0</value>
+          <description>0 min</description>
+        </choise>
+        <choise>
+          <value>1</value>
+          <description>1 min</description>
+        </choise>
+        <choise>
+          <value>2</value>
+          <description>2 min</description>
+        </choise>
+        <choise>
+          <value>3</value>
+          <description>4 min</description>
+        </choise>
+        <choise>
+          <value>4</value>
+          <description>8 min</description>
+        </choise>
+        <choise>
+          <value>5</value>
+          <description>16 min</description>
+        </choise>
+        <choise>
+          <value>6</value>
+          <description>32 min</description>
+        </choise>
+        <choise>
+          <value>7</value>
+          <description>64 min</description>
+        </choise>
+      </choises>
+    </setting>
+    <setting>
+      <name>OFF_DELAY</name>
+      <description>Off delay mode</description>
+      <type>U_INT32</type>
+      <defaultvalue>0</defaultvalue>
+      <choises>
+        <choise>
+          <value>0</value>
+          <description>0 min</description>
+        </choise>
+        <choise>
+          <value>1</value>
+          <description>1 min</description>
+        </choise>
+        <choise>
+          <value>2</value>
+          <description>2 min</description>
+        </choise>
+        <choise>
+          <value>3</value>
+          <description>4 min</description>
+        </choise>
+        <choise>
+          <value>4</value>
+          <description>8 min</description>
+        </choise>
+        <choise>
+          <value>5</value>
+          <description>16 min</description>
+        </choise>
+      </choises>
+    </setting>
+      <setting>
+        <name>TEMP_HIGH</name>
+        <description>Temperature high limit in degree celsius</description>
+        <type>U_INT32</type>
+        <defaultvalue>90</defaultvalue>
+        <minvalue>50</minvalue>
+        <maxvalue>90</maxvalue>
+      </setting>
+  </settinglist>
+  <!-- Global software modules -->
+  <swmodulelist>
+    <swmodule swap="false">
+      <name>ad78</name>
+      <description>AD78 Driver</description>
+      <type>Low Level Driver</type>
+      <makefilepath>AD78/DRIVER/COM/driver.mak</makefilepath>
+      <notos>NT4</notos>
+		</swmodule>
+		<swmodule>
+			<name>ad78_simp</name>
+			<description>Simple example program for the AD78 driver</description>
+			<type>Driver Specific Tool</type>
+			<makefilepath>AD78/EXAMPLE/AD78_SIMP/COM/program.mak</makefilepath>
+		</swmodule>
+    <swmodule>
+      <name>ad78_win</name>
+      <description>Windows service for the AD78 driver</description>
+      <type>Driver Specific Tool</type>
+      <makefilepath>AD78/EXAMPLE/AD78_WIN/COM/program.mak</makefilepath>
+      <os>Windows</os>
+    </swmodule>
+    <swmodule>
+      <name>ad78_ctrl</name>
+      <description>Tool to control AD78 PIC</description>
+      <type>Driver Specific Tool</type>
+      <makefilepath>AD78/TOOLS/AD78_CTRL/COM/program.mak</makefilepath>
+    </swmodule>
+    <swmodule>
+      <name>pu05_ctrl</name>
+      <description>Tool to control PU5 additional functions</description>
+      <type>Driver Specific Tool</type>
+      <makefilepath>AD78/TOOLS/PU05_CTRL/COM/program.mak</makefilepath>
+    </swmodule>
+	<swmodule internal="true">
+	  <name>ad78_test</name>
+	  <description>Test tool for AD78 PIC</description>
+	  <type>Driver Specific Tool</type>
+	  <makefilepath>AD78/TOOLS/AD78_TEST/COM/program.mak</makefilepath>
+	</swmodule>
+	<swmodule>
+      <name>wdog_test</name>
+      <description>Test program for Watchdog drivers</description>
+      <type>Common Tool</type>
+      <makefilepath>WDOG/WDOG_TEST/COM/program.mak</makefilepath>
+    </swmodule>
+	</swmodulelist>
+</package>

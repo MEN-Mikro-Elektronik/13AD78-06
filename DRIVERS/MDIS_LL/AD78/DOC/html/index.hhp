@@ -1,0 +1,61 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=AD78/PUx MDIS Driver
+
+[WINDOWS]
+main="AD78/PUx MDIS Driver","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x387e,,,,,,,,0
+
+[FILES]
+index.html
+files.html
+ad78__ctrl_8c-example.html
+ad78__max_8dsc-example.html
+ad78__min_8dsc-example.html
+ad78__simp_8c-example.html
+ad78__win_8c-example.html
+pu05__ctrl_8c-example.html
+wdog__test_8c-example.html
+ad78__drv_8h-source.html
+ad78c_8h-source.html
+pu05c_8h-source.html
+wdog_8h-source.html
+ad78__ctrl_8c.html
+ad78__doc_8c.html
+ad78__drv_8c.html
+ad78__drv_8h.html
+ad78__simp_8c.html
+ad78__win_8c.html
+ad78c_8h.html
+pu05__ctrl_8c.html
+pu05c_8h.html
+wdog_8h.html
+wdog__test_8c.html
+annotated.html
+functions.html
+functions_vars.html
+structAD78__BLK__DOWN__SIG.html
+structLL__HANDLE.html
+dummy.html
+_AD78_WIN.html
+group____AD78C.html
+group____AD78C__ONACK__TOUT.html
+group____AD78C__DOWN__DELAY.html
+group____AD78C__OFF__DELAY.html
+group____AD78C__TEMP__VOLT.html
+group____PU05.html
+modules.html
+examples.html
+globals.html
+globals_func.html
+globals_vars.html
+globals_type.html
+globals_enum.html
+globals_eval.html
+globals_defs.html
+pages.html
