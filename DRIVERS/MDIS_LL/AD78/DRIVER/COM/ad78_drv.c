@@ -1355,7 +1355,7 @@ static int32 AD78_Info(
 	)
 {
     int32   error = ERR_SUCCESS;
-    va_list argptr = NULL;
+    va_list argptr;
 
     va_start(argptr, infoType );
 
