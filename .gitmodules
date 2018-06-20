@@ -1,6 +1,6 @@
 [submodule "WDOG"]
 	path = WDOG
-	url = http://tschnuerer:AzByCx44@192.168.1.166:7990/scm/mct/wdog.git
+	url = ../mdis_tools_wdog.git
 [submodule "TOOLS/WDOG"]
 	path = TOOLS/WDOG
-	url = http://tschnuerer:AzByCx44@192.168.1.166:7990/scm/mct/wdog.git
+	url = ../mdis_tools_wdog.git
