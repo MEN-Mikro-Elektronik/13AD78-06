@@ -1,6 +1,0 @@
-[submodule "WDOG"]
-	path = WDOG
-	url = ../mdis_tools_wdog.git
-[submodule "TOOLS/WDOG"]
-	path = TOOLS/WDOG
-	url = ../mdis_tools_wdog.git
