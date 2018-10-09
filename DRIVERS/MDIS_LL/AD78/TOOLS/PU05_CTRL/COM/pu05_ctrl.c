@@ -204,6 +204,8 @@ int main( int argc, char *argv[])
 	arg_curr_high   = ((str = UTL_TSTOPT("I=")) ? atoi(str) : NONE);
     tempHigh 		= ((str = UTL_TSTOPT("T=")) ? atoi(str) : NONE);
 
+	(void)tempHigh;   /* -Wunused-but-set-variable */
+
     /* -- open path  -- */
     if( (G_Path = M_open(device)) < 0) {
         PrintMdisError("open");

@@ -164,6 +164,8 @@ int main( int argc, char *argv[])
 	binLow = ((str = UTL_TSTOPT("L=")) ? atoi(str) : NONE);
 	tempHigh = ((str = UTL_TSTOPT("T=")) ? atoi(str) : NONE);
 
+	(void)binGet;   /* -Wunused-but-set-variable */
+
 	/*--------------------+
     |  open path          |
     +--------------------*/
