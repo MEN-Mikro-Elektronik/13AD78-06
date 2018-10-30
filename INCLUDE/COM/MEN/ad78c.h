@@ -10,26 +10,7 @@
  *
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: ad78c.h,v $
- * Revision 1.5  2010/02/24 11:04:12  ts
- * R: Temperature protection switched off too early
- * M: increased limit to 105 degree, climate chamber tested
- *
- * Revision 1.4  2009/09/04 11:41:34  MRoth
- * R: MDVE warning
- * M: fixed AD78C_DOWN_DELAY_MIN2MODE makro
- *
- * Revision 1.3  2006/07/21 10:09:33  DPfeuffer
- * added defines and macros for temperature and voltage computation
- *
- * Revision 1.2  2006/05/26 15:08:32  DPfeuffer
- * cosmetics
- *
- * Revision 1.1  2006/05/24 16:20:51  ag
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2006 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ****************************************************************************/

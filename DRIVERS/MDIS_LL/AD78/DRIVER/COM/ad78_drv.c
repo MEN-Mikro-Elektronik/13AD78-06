@@ -12,35 +12,7 @@
  *
  *     \switches _ONE_NAMESPACE_PER_DRIVER_
  */
-/*-------------------------------[ History ]--------------------------------
- *
- * $Log: ad78_drv.c,v $
- * Revision 1.7  2010/10/08 15:44:06  ts
- * R: uninitialized arg_ptr warning during MDVE run
- * M: initialize pointer to NULL
- *
- * Revision 1.6  2010/10/08 12:18:12  ts
- * R: Declaration and Implementation of Get- and SetStat differed
- * M: changed order of parameters code and ch in Prototypes
- *
- * Revision 1.5  2010/01/25 14:53:59  ts
- * R: new Powersupplies PU6 and PU8 introduced by MEN
- * M: added support for PU IDs 0x06 (PU6) and 0x08 (PU8)
- *
- * Revision 1.4  2009/08/31 14:35:38  MRoth
- * R: Porting to MIDS5
- * M: added support for 64bit (Set/GetStat prototypes)
- *
- * Revision 1.3  2009/04/23 16:50:24  ts
- * R: 1) support new PUx powersupply family
- * M: 1) added Get/SetStats for PU5
- *
- * Revision 1.2  2006/07/21 10:09:20  DPfeuffer
- * temperature and voltage measurement implemented
- *
- * Revision 1.1  2006/05/26 15:06:24  DPfeuffer
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/

@@ -12,17 +12,7 @@
  *                      
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: pu05c.h,v $
- * Revision 3.2  2009/10/08 18:24:55  ts
- * R: Rev.01 of PUx has different shunt for 12V rail
- * M: adjusted current calculation for 12V rail
- *
- * Revision 3.1  2009/04/23 17:42:34  ts
- * R: Initial Revision, first PU7 firmware release
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2006 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ****************************************************************************/

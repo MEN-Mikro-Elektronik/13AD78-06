@@ -10,26 +10,7 @@
  *               covered by the basic AD78 command set
  *
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: pu05_ctrl.c,v $
- * Revision 1.4  2009/09/01 09:47:00  MRoth
- * R: MDVE warnings
- * M: removed unused global variables
- *
- * Revision 1.3  2009/08/31 14:35:49  MRoth
- * R: Porting to MDIS5
- * M: added support for 64bit (MDIS_PATH)
- *
- * Revision 1.2  2009/04/23 17:35:28  ts
- * R: possibility for changing limits on all outputs was missing
- * M: added arguments for channel select and current/volt limit values
- *    and functions
- *
- * Revision 1.1  2009/04/06 13:19:54  ts
- * R: Initial Revision, first working version reading from PU5
- *
- *
+ /*
  *---------------------------------------------------------------------------
  * (c) Copyright 2009 by MEN mikro elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
