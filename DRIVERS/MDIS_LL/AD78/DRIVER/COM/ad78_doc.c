@@ -12,30 +12,23 @@
  *
  *     \switches -
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: ad78_doc.c,v $
- * Revision 1.5  2010/02/24 11:01:25  ts
- * R: PUxR01 and up dont measure 3.3V and 5V currents
- * M: explained that 3.3V and 5V current readout returns 0
- *
- * Revision 1.4  2009/08/31 14:35:40  MRoth
- * R: Porting to MDIS5
- * M: Changed description to MDIS5; added compatibility hint
- *
- * Revision 1.3  2009/04/23 16:34:05  ts
- * R: Driver shall support also new PUx family of powersupplies
- * M: New features of PU5 documented
- *
- * Revision 1.2  2006/07/21 10:09:23  DPfeuffer
- * cosmetics
- *
- * Revision 1.1  2006/05/26 15:06:25  DPfeuffer
- * Initial Revision
- *
- *---------------------------------------------------------------------------
+ /*
  * (c) Copyright 2006 by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 /*! \mainpage
     This is the documentation of the MDIS5 low-level driver for the monitoring

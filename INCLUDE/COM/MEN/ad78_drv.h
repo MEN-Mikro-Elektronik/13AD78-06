@@ -13,30 +13,23 @@
  *    \switches  _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: ad78_drv.h,v $
- * Revision 3.5  2010/02/24 11:10:05  ts
- * R: PUx uses slightly higher max temp limit
- * M: added doxygen comment for PUx temp limit
- *
- * Revision 3.4  2009/08/31 14:35:54  MRoth
- * R: Porting to MDIS5, new MDIS_API and men_typs
- * M: for backward compatibility to MDIS4 optionally define new types
- *
- * Revision 3.3  2009/04/23 17:40:31  ts
- * R: driver shall support PUx family of power supplies too
- * M: added PUx specific Get/SetStats to common AD78 codes
- *
- * Revision 3.2  2006/07/21 10:09:30  DPfeuffer
- * cosmetics
- *
- * Revision 3.1  2006/05/26 15:06:42  DPfeuffer
- * Initial Revision
- *
- *---------------------------------------------------------------------------
+ /*
  * (c) Copyright by MEN Mikro Elektronik GmbH, Nuernberg, Germany
  ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #ifndef _AD78_DRV_H
 #define _AD78_DRV_H
