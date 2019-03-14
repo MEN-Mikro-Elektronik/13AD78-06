@@ -214,9 +214,6 @@
     \subsection ad78_simp Simple example for using the driver
     ad78_simp.c (see example section)
 
-    \subsection ad78_win Windows service example for the AD78 driver
-    \ref _AD78_WIN
-
     \subsection ad78_ctrl Tool to control AD78 PIC
     ad78_ctrl.c (see example section)
 

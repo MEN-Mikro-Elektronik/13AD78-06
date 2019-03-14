@@ -208,13 +208,6 @@
 			<makefilepath>AD78/EXAMPLE/AD78_SIMP/COM/program.mak</makefilepath>
 		</swmodule>
     <swmodule>
-      <name>ad78_win</name>
-      <description>Windows service for the AD78 driver</description>
-      <type>Driver Specific Tool</type>
-      <makefilepath>AD78/EXAMPLE/AD78_WIN/COM/program.mak</makefilepath>
-      <os>Windows</os>
-    </swmodule>
-    <swmodule>
       <name>ad78_ctrl</name>
       <description>Tool to control AD78 PIC</description>
       <type>Driver Specific Tool</type>
