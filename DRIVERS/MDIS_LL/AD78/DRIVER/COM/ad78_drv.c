@@ -371,7 +371,7 @@ static int32 AD78_Init(
 		}
 	}
 
-#if DBG
+#ifdef DBG
 	/* get and print firmware revision */
 	SMB_R_BYTE( AD78C_REV, &value8 );
 	DBGWRT_2((DBH, "AD78C_REV=0x%02x\n", value8));
