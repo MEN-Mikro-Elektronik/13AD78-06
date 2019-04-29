@@ -1403,7 +1403,7 @@ static int Restart( void )
 /********************************* WdogOnOff *******************************/
 /** Enable/disable watchdog
 *
-*  \param enabel	\IN  1=enable, 0=disable
+*  \param enable	\IN  1=enable, 0=disable
 *
 *  \return			0 success or error code
 */

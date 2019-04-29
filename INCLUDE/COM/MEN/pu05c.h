@@ -133,8 +133,8 @@
  *                                                    ------
  */
 
-/**< get 12V current in mA from raw ADC-Value */	
-#define PU05C_12V_CURR(adc) ((int32)((adc)*81)) 
+/** get 12V current in mA from raw ADC-Value */
+#define PU05C_12V_CURR(adc) ((int32)((adc)*81))
 
 /** macro to calculate temperature [degree celsius] from ADC-Value */
 #define PU05C_TEMP_FROM_ADC( adc )	(AD78C_TEMP_FROM_INV(AD78C_ADC2INV(adc )))
