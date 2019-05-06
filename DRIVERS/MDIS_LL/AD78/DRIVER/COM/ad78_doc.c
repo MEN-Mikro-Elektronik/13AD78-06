@@ -232,6 +232,6 @@
 /** \example ad78_min.dsc */
 /** \example ad78_max.dsc */
 
-/*! \page dummy
+/*! \page ad78dummy MEN logo
   \menimages
 */
