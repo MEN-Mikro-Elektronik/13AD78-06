@@ -7,16 +7,15 @@ INPUT                  = ../DRIVER/COM \
                          $(MEN_COM_INC)/MEN/ad78c.h \
                          $(MEN_COM_INC)/MEN/pu05c.h \
                          ../EXAMPLE/AD78_SIMP/COM/ad78_simp.c \
-                         ../EXAMPLE/AD78_WIN/COM/ad78_win.c \
                          ../TOOLS/AD78_CTRL/COM/ad78_ctrl.c \
                          ../TOOLS/PU05_CTRL/COM/pu05_ctrl.c \
                          ../../../../TOOLS/WDOG/WDOG_TEST/COM/wdog_test.c \
                          $(MEN_COM_INC)/MEN/ad78_drv.h \
                          $(MEN_COM_INC)/MEN/wdog.h
+
 EXAMPLE_RECURSIVE      = YES
 EXAMPLE_PATH           = ../DRIVER/COM \
                          ../EXAMPLE/AD78_SIMP/COM \
-                         ../EXAMPLE/AD78_WIN/COM \
                          ../TOOLS/AD78_CTRL/COM \
                          ../TOOLS/PU05_CTRL/COM \
                          ../../../../TOOLS/WDOG/WDOG_TEST/COM
