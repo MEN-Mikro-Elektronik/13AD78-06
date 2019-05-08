@@ -12,7 +12,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_drv.c"><param name="Local" value="ad78__drv_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_drv.h"><param name="Local" value="ad78__drv_8h.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_simp.c"><param name="Local" value="ad78__simp_8c.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_win.c"><param name="Local" value="ad78__win_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78c.h"><param name="Local" value="ad78c_8h.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="pu05_ctrl.c"><param name="Local" value="pu05__ctrl_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="pu05c.h"><param name="Local" value="pu05c_8h.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -59,7 +58,6 @@
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Related Pages"><param name="Local" value="pages.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="dummy"><param name="Local" value="dummy.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="AD78_WIN Windows service"><param name="Local" value="_AD78_WIN.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MEN logo"><param name="Local" value="ad78dummy.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 </UL>

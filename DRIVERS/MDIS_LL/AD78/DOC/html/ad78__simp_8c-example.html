@@ -11,7 +11,7 @@
 
 <div class="left_to_right" style="padding-top: 6px; background-color: #F0F0F0; height: 110px; border-bottom: 2px solid #D1D1D2;">
 	<!-- Titel -->
-	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;"></a>
+	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;">
 	<h1 style="margin: 0px; padding-top: 35px; padding-bottom: 0px;">AD78/PUx MDIS Driver &nbsp; </h1>
 	<h3>Example Documentation</h3>
 </div>
@@ -26,23 +26,24 @@
 <span class="comment"> ************                   AD78_SIMP                        ************</span>
 <span class="comment"> ************                                                    ************</span>
 <span class="comment"> ****************************************************************************/</span>
- <span class="comment">/*-------------------------------[ History ]--------------------------------</span>
-<span class="comment"> *</span>
-<span class="comment"> * $Log: ad78_simp.c,v $</span>
-<span class="comment"> * Revision 1.3  2009/09/01 09:45:32  MRoth</span>
-<span class="comment"> * R: MDVE warnings</span>
-<span class="comment"> * M: removed unused variables</span>
-<span class="comment"> *</span>
-<span class="comment"> * Revision 1.2  2009/08/31 14:35:42  MRoth</span>
-<span class="comment"> * R: Porting to MDIS5</span>
-<span class="comment"> * M: added support for 64bit (MDIS_PATH)</span>
-<span class="comment"> *</span>
-<span class="comment"> * Revision 1.1  2006/05/26 15:06:32  DPfeuffer</span>
-<span class="comment"> * Initial Revision</span>
-<span class="comment"> *</span>
+ <span class="comment">/*</span>
 <span class="comment"> *---------------------------------------------------------------------------</span>
-<span class="comment"> * (c) Copyright 2006 by MEN mikro elektronik GmbH, Nuernberg, Germany</span>
+<span class="comment"> * Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH</span>
 <span class="comment"> ****************************************************************************/</span>
+<span class="comment">/*</span>
+<span class="comment">* This program is free software: you can redistribute it and/or modify</span>
+<span class="comment">* it under the terms of the GNU General Public License as published by</span>
+<span class="comment">* the Free Software Foundation, either version 2 of the License, or</span>
+<span class="comment">* (at your option) any later version.</span>
+<span class="comment">*</span>
+<span class="comment">* This program is distributed in the hope that it will be useful,</span>
+<span class="comment">* but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="comment">* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="comment">* GNU General Public License for more details.</span>
+<span class="comment">*</span>
+<span class="comment">* You should have received a copy of the GNU General Public License</span>
+<span class="comment">* along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+<span class="comment">*/</span>
 
 <span class="preprocessor">#include &lt;stdio.h&gt;</span>
 <span class="preprocessor">#include &lt;string.h&gt;</span>
@@ -59,7 +60,7 @@
 <span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a19"></a><a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="keywordtype">char</span> *info);
 
 <span class="comment">/********************************* main ************************************/</span>
-<span class="keywordtype">int</span> <a name="a20"></a><a class="code" href="ad78__win_8c.html#a14">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])
+<span class="keywordtype">int</span> <a name="a20"></a><a class="code" href="ad78__simp_8c.html#a1">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])
 {
     <a class="code" href="ad78__drv_8h.html#a35">MDIS_PATH</a> path;
     <span class="keywordtype">char</span>      *device;
@@ -80,7 +81,7 @@
     <span class="comment">/*--------------------+</span>
 <span class="comment">    |  open path          |</span>
 <span class="comment">    +--------------------*/</span>
-    <span class="keywordflow">if</span> ((path = <a name="a21"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a5">M_open</a>(device)) &lt; 0) {
+    <span class="keywordflow">if</span> ((path = <a name="a21"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open</a>(device)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"open"</span>);
         <span class="keywordflow">return</span>(1);
     }
@@ -89,7 +90,7 @@
 <span class="comment">    |  power up confirmation  |</span>
 <span class="comment">    +------------------------*/</span>
     printf(<span class="stringliteral">"- set ON Acknowledge Timeout: none\n"</span>);
-    <span class="keywordflow">if</span> ((<a name="a22"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, AD78_ONACK, 0)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a name="a22"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, AD78_ONACK, 0)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat AD78_ONACK"</span>);
         <span class="keywordflow">goto</span> abort;
     }
@@ -100,7 +101,7 @@
     <span class="comment">/* no delay between power down initiation and power down signal */</span>
     printf(<span class="stringliteral">"- set Shutdown Delay: none\n"</span>);
     <a name="a23"></a><a class="code" href="group____AD78C__DOWN__DELAY.html#a1">AD78C_DOWN_DELAY_MIN2MODE</a>(0,mode);
-    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, AD78_DOWN_DELAY, mode)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, AD78_DOWN_DELAY, mode)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat AD78_DOWN_DELAY"</span>);
         <span class="keywordflow">goto</span> abort;
     }
@@ -108,7 +109,7 @@
     <span class="comment">/* wait 2min from power down signal to powering off the PSU output voltage */</span>
     printf(<span class="stringliteral">"- set OFF Delay: 2min\n"</span>);
     <a name="a24"></a><a class="code" href="group____AD78C__OFF__DELAY.html#a1">AD78C_OFF_DELAY_MIN2MODE</a>(2,mode);
-    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, AD78_OFF_DELAY, mode)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, AD78_OFF_DELAY, mode)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat AD78_OFF_DELAY"</span>);
         <span class="keywordflow">goto</span> abort;
     }
@@ -118,14 +119,14 @@
 <span class="comment">    +------------------------*/</span>
     <span class="comment">/* set watchdog trigger time to 2sec */</span>
     printf(<span class="stringliteral">"- set Watchdog Trigger Time: 2sec\n"</span>);
-    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, WDOG_TIME, 2000)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, WDOG_TIME, 2000)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat WDOG_TIME"</span>);
         <span class="keywordflow">goto</span> abort;
     }
 
     <span class="comment">/* start watchdog */</span>
     printf(<span class="stringliteral">"- start watchdog\n"</span>);
-    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, WDOG_START, 0)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, WDOG_START, 0)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat WDOG_START"</span>);
         <span class="keywordflow">goto</span> abort;
     }
@@ -138,7 +139,7 @@
         <span class="comment">/*------------------------+</span>
 <span class="comment">        |  watchdog trigger       |</span>
 <span class="comment">        +------------------------*/</span>
-        <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, WDOG_TRIG, 0)) &lt; 0) {
+        <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, WDOG_TRIG, 0)) &lt; 0) {
             <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat WDOG_TRIG"</span>);
             <span class="keywordflow">goto</span> abort;
         }
@@ -146,7 +147,7 @@
         <span class="comment">/*------------------------+</span>
 <span class="comment">        |  power down request?    |</span>
 <span class="comment">        +------------------------*/</span>
-        <span class="keywordflow">if</span> ((<a name="a25"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(path, AD78_DOWN_EVT, &amp;powerDown)) &lt; 0) {
+        <span class="keywordflow">if</span> ((<a name="a25"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(path, AD78_DOWN_EVT, &amp;powerDown)) &lt; 0) {
             <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"getstat AD78_DOWN_EVT"</span>);
             <span class="keywordflow">goto</span> abort;
         }
@@ -167,7 +168,7 @@
 <span class="comment">             * The Watchdog was automatically stopped from the PSU controller.</span>
 <span class="comment">             * So we just close the path here.</span>
 <span class="comment">             */</span>
-            <a name="a26"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_close</a>(path);
+            <a name="a26"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close</a>(path);
 
             <span class="keywordflow">return</span> 0;
         }
@@ -185,12 +186,12 @@
 
     <span class="comment">/* stop watchdog */</span>
     printf(<span class="stringliteral">"- stop watchdog\n"</span>);
-    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(path, WDOG_STOP, 0)) &lt; 0) {
+    <span class="keywordflow">if</span> ((<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(path, WDOG_STOP, 0)) &lt; 0) {
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"setstat WDOG_STOP"</span>);
         <span class="keywordflow">goto</span> abort;
     }
 
-    <span class="keywordflow">if</span> (<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_close</a>(path) &lt; 0)
+    <span class="keywordflow">if</span> (<a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close</a>(path) &lt; 0)
         <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="stringliteral">"close"</span>);
 
     <span class="keywordflow">return</span>(0);
@@ -199,7 +200,7 @@
 <span class="comment">/********************************* PrintError ******************************/</span>
 <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="ad78__simp_8c.html#a0">PrintError</a>(<span class="keywordtype">char</span> *info)
 {
-    printf(<span class="stringliteral">"*** can't %s: %s\n"</span>, info, <a name="a27"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api__specification_8c.html#a8">M_errstring</a>(UOS_ErrnoGet()));
+    printf(<span class="stringliteral">"*** can't %s: %s\n"</span>, info, <a name="a27"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a0">M_errstring</a>(UOS_ErrnoGet()));
 }
 </pre></div> 
 	</div>
@@ -209,7 +210,7 @@
 <!-- Footer -->
 	<p class="footer">
 	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2010 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
 	</p>
 </div>
 

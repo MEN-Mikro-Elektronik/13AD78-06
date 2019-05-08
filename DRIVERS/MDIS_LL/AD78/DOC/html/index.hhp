@@ -30,7 +30,6 @@ ad78__doc_8c.html
 ad78__drv_8c.html
 ad78__drv_8h.html
 ad78__simp_8c.html
-ad78__win_8c.html
 ad78c_8h.html
 pu05__ctrl_8c.html
 pu05c_8h.html
@@ -41,8 +40,7 @@ functions.html
 functions_vars.html
 structAD78__BLK__DOWN__SIG.html
 structLL__HANDLE.html
-dummy.html
-_AD78_WIN.html
+ad78dummy.html
 group____AD78C.html
 group____AD78C__ONACK__TOUT.html
 group____AD78C__DOWN__DELAY.html

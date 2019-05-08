@@ -355,24 +355,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a4"><param name="Name" value="ad78_drv.h"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html"><param name="Name" value="ad78_win.c"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a9"><param name="Name" value="ControlHandler"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a1"><param name="Name" value="DBG_NAME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a13"><param name="Name" value="DbgWrite"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a3"><param name="Name" value="DBGWRT"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a6"><param name="Name" value="G_path"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a4"><param name="Name" value="G_serviceStatus"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a7"><param name="Name" value="G_ShutdownFromPsu"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a5"><param name="Name" value="G_statusHdl"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a14"><param name="Name" value="main"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a2"><param name="Name" value="MAX_DEVNAME_NBR"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a12"><param name="Name" value="PrintError"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a10"><param name="Name" value="ServiceJob"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a8"><param name="Name" value="ServiceMain"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a0"><param name="Name" value="SLEEP_TIME"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a11"><param name="Name" value="SystemShutdown"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="AD78_WOT"><param name="Name" value="AD78_WOT"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a0"><param name="Name" value="ad78_drv.h"></OBJECT>
@@ -727,17 +709,9 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a29"><param name="Name" value="ad78_drv.c"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ControlHandler"><param name="Name" value="ControlHandler"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a9"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_MYLEVEL"><param name="Name" value="DBG_MYLEVEL"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8c.html#a14"><param name="Name" value="ad78_drv.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBG_NAME"><param name="Name" value="DBG_NAME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a1"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="dbgHdl"><param name="Name" value="dbgHdl"></OBJECT>
   <UL>
@@ -746,14 +720,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="dbgLevel"><param name="Name" value="dbgLevel"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o6"><param name="Name" value="LL_HANDLE"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DbgWrite"><param name="Name" value="DbgWrite"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a13"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBGWRT"><param name="Name" value="DBGWRT"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a3"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="DBH"><param name="Name" value="DBH"></OBJECT>
   <UL>
@@ -786,26 +752,11 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_Path"><param name="Name" value="G_Path"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a2"><param name="Name" value="ad78_ctrl.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_path"><param name="Name" value="G_path"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a6"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_Path"><param name="Name" value="G_Path"></OBJECT>
-  <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a4"><param name="Name" value="pu05_ctrl.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_rail"><param name="Name" value="G_rail"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a5"><param name="Name" value="pu05_ctrl.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_serviceStatus"><param name="Name" value="G_serviceStatus"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a4"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_ShutdownFromPsu"><param name="Name" value="G_ShutdownFromPsu"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a7"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_SigCountOthers"><param name="Name" value="G_SigCountOthers"></OBJECT>
   <UL>
@@ -814,10 +765,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_SigCountSdEvt"><param name="Name" value="G_SigCountSdEvt"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a3"><param name="Name" value="ad78_ctrl.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="G_statusHdl"><param name="Name" value="G_statusHdl"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a5"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="idCheck"><param name="Name" value="idCheck"></OBJECT>
   <UL>
@@ -867,13 +814,8 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__ctrl_8c.html#a10"><param name="Name" value="ad78_ctrl.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a1"><param name="Name" value="ad78_simp.c"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a14"><param name="Name" value="ad78_win.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a10"><param name="Name" value="pu05_ctrl.c"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog__test_8c.html#a2"><param name="Name" value="wdog_test.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MAX_DEVNAME_NBR"><param name="Name" value="MAX_DEVNAME_NBR"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a2"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="MDIS_PATH"><param name="Name" value="MDIS_PATH"></OBJECT>
   <UL>
@@ -899,7 +841,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="PrintError"><param name="Name" value="PrintError"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__simp_8c.html#a0"><param name="Name" value="ad78_simp.c"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a12"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="PrintMdisError"><param name="Name" value="PrintMdisError"></OBJECT>
   <UL>
@@ -1080,14 +1021,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="group____PU05.html#a8"><param name="Name" value="_PU05"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ServiceJob"><param name="Name" value="ServiceJob"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a10"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ServiceMain"><param name="Name" value="ServiceMain"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a8"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="showInfo"><param name="Name" value="showInfo"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="pu05__ctrl_8c.html#a9"><param name="Name" value="pu05_ctrl.c"></OBJECT>
@@ -1108,10 +1041,6 @@
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="signal"><param name="Name" value="signal"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structAD78__BLK__DOWN__SIG.html#o1"><param name="Name" value="AD78_BLK_DOWN_SIG"></OBJECT>
-  </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SLEEP_TIME"><param name="Name" value="SLEEP_TIME"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a0"><param name="Name" value="ad78_win.c"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="SM_STATE_ERROR_OFF"><param name="Name" value="SM_STATE_ERROR_OFF"></OBJECT>
   <UL>
@@ -1161,10 +1090,6 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="structLL__HANDLE.html#o8"><param name="Name" value="LL_HANDLE"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SystemShutdown"><param name="Name" value="SystemShutdown"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__win_8c.html#a11"><param name="Name" value="ad78_win.c"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="U_INT32_OR_64"><param name="Name" value="U_INT32_OR_64"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="ad78__drv_8h.html#a34"><param name="Name" value="ad78_drv.h"></OBJECT>
@@ -1182,12 +1107,57 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html"><param name="Name" value="wdog.h"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a0"><param name="Name" value="M_CH_PROFILE_WDOG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a18"><param name="Name" value="WDOG_ERR_PIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a14"><param name="Name" value="WDOG_IRQ_PIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a17"><param name="Name" value="WDOG_IRQ_REASON"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a16"><param name="Name" value="WDOG_IRQ_SIGCLR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a15"><param name="Name" value="WDOG_IRQ_SIGSET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a12"><param name="Name" value="WDOG_OUT_PIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a13"><param name="Name" value="WDOG_OUT_REASON"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a7"><param name="Name" value="WDOG_RESET_CTRL"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a6"><param name="Name" value="WDOG_SHOT"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a1"><param name="Name" value="WDOG_START"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a5"><param name="Name" value="WDOG_STATUS"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a3"><param name="Name" value="WDOG_STOP"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a4"><param name="Name" value="WDOG_TIME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a11"><param name="Name" value="WDOG_TIME_IRQ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a10"><param name="Name" value="WDOG_TIME_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a9"><param name="Name" value="WDOG_TIME_MIN"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a2"><param name="Name" value="WDOG_TRIG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a8"><param name="Name" value="WDOG_TRIG_PAT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a19"><param name="Name" value="WDOG_TRIGPAT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_ERR_PIN"><param name="Name" value="WDOG_ERR_PIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a18"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_IRQ_PIN"><param name="Name" value="WDOG_IRQ_PIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a14"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_IRQ_REASON"><param name="Name" value="WDOG_IRQ_REASON"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a17"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_IRQ_SIGCLR"><param name="Name" value="WDOG_IRQ_SIGCLR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a16"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_IRQ_SIGSET"><param name="Name" value="WDOG_IRQ_SIGSET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a15"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_OUT_PIN"><param name="Name" value="WDOG_OUT_PIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a12"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_OUT_REASON"><param name="Name" value="WDOG_OUT_REASON"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a13"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_RESET_CTRL"><param name="Name" value="WDOG_RESET_CTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a7"><param name="Name" value="wdog.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_SHOT"><param name="Name" value="WDOG_SHOT"></OBJECT>
   <UL>
@@ -1215,9 +1185,29 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a4"><param name="Name" value="wdog.h"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TIME_IRQ"><param name="Name" value="WDOG_TIME_IRQ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a11"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TIME_MAX"><param name="Name" value="WDOG_TIME_MAX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a10"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TIME_MIN"><param name="Name" value="WDOG_TIME_MIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a9"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TRIG"><param name="Name" value="WDOG_TRIG"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a2"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TRIG_PAT"><param name="Name" value="WDOG_TRIG_PAT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a8"><param name="Name" value="wdog.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WDOG_TRIGPAT"><param name="Name" value="WDOG_TRIGPAT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="wdog_8h.html#a19"><param name="Name" value="wdog.h"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="See Also" value="wdState"><param name="Name" value="wdState"></OBJECT>
   <UL>

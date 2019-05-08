@@ -11,7 +11,7 @@
 
 <div class="left_to_right" style="padding-top: 6px; background-color: #F0F0F0; height: 110px; border-bottom: 2px solid #D1D1D2;">
 	<!-- Titel -->
-	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;"></a>
+	<img src="menlogo.gif" alt="MEN" style="float: left; height: 103px; width: 155px; margin: 0px;">
 	<h1 style="margin: 0px; padding-top: 35px; padding-bottom: 0px;">AD78/PUx MDIS Driver &nbsp; </h1>
 	<h3>Main Page</h3>
 </div>
@@ -52,7 +52,7 @@ Functional Description</h2>
 <br>
  <h3><a name="General"></a>
 General</h3>
-The driver supports controlling of the AD78 PSU via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat()</a> and <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat()</a>. No interrupts are used. The driver can inform applications via an MDIS signal about a shutdown event by polling the AD78 PSU, see <a class="el" href="ad78__drv_8h.html#a20">AD78_BLK_DOWN_SIG_SET</a>.<p>
+The driver supports controlling of the AD78 PSU via <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat()</a> and <a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat()</a>. No interrupts are used. The driver can inform applications via an MDIS signal about a shutdown event by polling the AD78 PSU, see <a class="el" href="ad78__drv_8h.html#a20">AD78_BLK_DOWN_SIG_SET</a>.<p>
 When the first path is opened to an AD78 device, the HW and the driver are being initialized with default values (see section about <a class="el" href="index.html#descriptor_entries">AD78 Descriptor Entries</a>). <br>
  The AD78 and PU5 power supplies use the same driver and share the identical basic set of GetStat- and SetStat codes. The PU5 also provides 3 output rails ( 3.3V, 5V, 12V ) instead the two rails on the AD78. For each of these rails limits can be set for over/undervoltage and over/undercurrent. <br>
 <p>
@@ -72,13 +72,13 @@ To reduce the amount of different GetStat and SetStat codes the MDIS concept of 
 <p>
 As an example the simplified code snippet below shows how the channels are used to read out voltage and current from the 3.3V rail and 5V rail: <div class="fragment"><pre>    <span class="comment">/* Attention: simplified, no error checks! */</span>
     int32 voltage, current;
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(G_Path, M_MK_CH_CURRENT,  0); <span class="comment">/* next Getstats go to 3.3V rail */</span>
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(G_Path, PU05_VOLT, &amp;voltage);
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(G_Path, PU05_CURR, &amp;current);
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(G_Path, M_MK_CH_CURRENT,  0); <span class="comment">/* next Getstats go to 3.3V rail */</span>
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(G_Path, PU05_VOLT, &amp;voltage);
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(G_Path, PU05_CURR, &amp;current);
     printf(<span class="stringliteral">"Now on 3,3V rail: %d volt %d mA\n"</span>, voltage, current);
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat</a>(G_Path, M_MK_CH_CURRENT,  1); <span class="comment">/* next Getstats go to 5V rail */</span>
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(G_Path, PU05_VOLT, &amp;voltage);
-    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat</a>(G_Path, PU05_CURR, &amp;current);
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat</a>(G_Path, M_MK_CH_CURRENT,  1); <span class="comment">/* next Getstats go to 5V rail */</span>
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(G_Path, PU05_VOLT, &amp;voltage);
+    <a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat</a>(G_Path, PU05_CURR, &amp;current);
     printf(<span class="stringliteral">"Now on 5V rail: %d volt %d mA\n"</span>, voltage, current);
 </pre></div><p>
 <br>
@@ -89,16 +89,16 @@ Supported API Functions</h2>
 <td><b>API Function</b> </td><td><b>Functionality</b> </td><td><b>Corresponding Low-Level Function</b><p>
 </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a5">M_open()</a></td><td>Open device</td><td><a class="el" href="ad78__drv_8c.html#a18">AD78_Init()</a><p>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open()</a></td><td>Open device</td><td><a class="el" href="ad78__drv_8c.html#a18">AD78_Init()</a><p>
 </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a10">M_close()</a> </td><td>Close device  </td><td><a class="el" href="ad78__drv_8c.html#a19">AD78_Exit()</a>) </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close()</a> </td><td>Close device  </td><td><a class="el" href="ad78__drv_8c.html#a19">AD78_Exit()</a>) </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a14">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="ad78__drv_8c.html#a22">AD78_SetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_setstat()</a> </td><td>Set device parameter  </td><td><a class="el" href="ad78__drv_8c.html#a22">AD78_SetStat()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a13">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="ad78__drv_8c.html#a23">AD78_GetStat()</a> </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a12">M_getstat()</a> </td><td>Get device parameter  </td><td><a class="el" href="ad78__drv_8c.html#a23">AD78_GetStat()</a> </td></tr>
 <tr>
-<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api__specification_8c.html#a9">M_errstringTs()</a> </td><td>Generate error message  </td><td>- </td></tr>
+<td><a class="elRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a1">M_errstringTs()</a> </td><td>Generate error message  </td><td>- </td></tr>
 </table>
 <p>
 <br>
@@ -158,9 +158,7 @@ For the additional PU5 functionality like setting the voltage and current limits
 Overview of provided programs</h2>
 <h3><a name="ad78_simp"></a>
 Simple example for using the driver</h3>
-<a class="el" href="ad78__simp_8c.html">ad78_simp.c</a> (see example section)<h3><a name="ad78_win"></a>
-Windows service example for the AD78 driver</h3>
-<a class="el" href="_AD78_WIN.html">AD78_WIN Windows service</a><h3><a name="ad78_ctrl"></a>
+<a class="el" href="ad78__simp_8c.html">ad78_simp.c</a> (see example section)<h3><a name="ad78_ctrl"></a>
 Tool to control AD78 PIC</h3>
 <a class="el" href="ad78__ctrl_8c.html">ad78_ctrl.c</a> (see example section)<h3><a name="pu05_ctrl"></a>
 Tool to control the additional PU5 functions</h3>
@@ -174,7 +172,7 @@ Tool to service and test the watchdog</h3>
 <!-- Footer -->
 	<p class="footer">
 	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2010 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
 	</p>
 </div>
 
