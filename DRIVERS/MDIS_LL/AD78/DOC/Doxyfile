@@ -9,6 +9,7 @@ INPUT                  = ../DRIVER/COM \
                          ../EXAMPLE/AD78_SIMP/COM/ad78_simp.c \
                          ../TOOLS/AD78_CTRL/COM/ad78_ctrl.c \
                          ../TOOLS/PU05_CTRL/COM/pu05_ctrl.c \
+                         ../TOOLS/AD78_TEST/COM/ad78_test.c \
                          ../../../../TOOLS/WDOG/WDOG_TEST/COM/wdog_test.c \
                          $(MEN_COM_INC)/MEN/ad78_drv.h \
                          $(MEN_COM_INC)/MEN/wdog.h
