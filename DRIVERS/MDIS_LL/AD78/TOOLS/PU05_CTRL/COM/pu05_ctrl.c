@@ -3,8 +3,6 @@
  *        \file pu05_ctrl.c
  *
  *      \author  thomas.schnuerer@men.de
- *        $Date: 2009/09/01 09:47:00 $
- *    $Revision: 1.4 $
  *
  *        \brief Tool to control PU05 additional functions which are not
  *               covered by the basic AD78 command set
@@ -37,6 +35,8 @@
 #include <MEN/ad78_drv.h>
 #include <MEN/ad78c.h>
 #include <MEN/pu05c.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   GLOBALS                             |
@@ -93,7 +93,7 @@ static void usage(void)
     printf(" -i=<volt> set low current limit of rail -r               [mA]\n");
     printf(" -l        display currents/voltages/temperature in a loop \n");
     printf("\n");
-    printf("(c) 2009 by MEN mikro elektronik GmbH\n\n");
+    printf("Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 

@@ -6,8 +6,6 @@
 /*!
  *         \file ad78_test.c
  *       \author dieter.pfeuffer@men.de
- *        $Date: 2009/09/01 09:55:18 $
- *    $Revision: 1.4 $
  *
  *        \brief Test tool for AD78 PIC
  *
@@ -42,6 +40,8 @@
 #include <MEN/ad78_drv.h>
 #include <MEN/ad78c.h>
 #include <MEN/wdog.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   GLOBALS                             |
@@ -120,7 +120,7 @@ static void usage(void)
 	printf("    -f=<time>    show firmware internal state               \n");
 	printf("                   poll all <time> in ms in a loop          \n");
 	printf("\n");
-	printf("(c) 2006 by MEN mikro elektronik GmbH\n\n");
+	printf("Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /********************************* main ************************************/

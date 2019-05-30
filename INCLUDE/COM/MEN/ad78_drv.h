@@ -3,8 +3,6 @@
  *        \file  ad78_drv.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2010/02/24 11:10:05 $
- *    $Revision: 3.5 $
  *
  *       \brief  Header file for AD78 driver containing
  *               AD78 specific status codes and

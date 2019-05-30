@@ -3,8 +3,6 @@
  *        \file  ad78_doc.c
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2010/02/24 11:01:25 $
- *    $Revision: 1.5 $
  *
  *      \brief   User documentation for AD78 device driver
  *

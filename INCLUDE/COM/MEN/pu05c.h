@@ -3,8 +3,6 @@
  *        \file  pu05c.h
  *
  *      \author  thomas.schnuerer@men.de
- *        $Date: 2009/10/08 18:24:55 $
- *    $Revision: 3.2 $
  * 
  *  	 \brief  Header file for 17PUx onboard controller. This
  *               files contains the additional defines that are added

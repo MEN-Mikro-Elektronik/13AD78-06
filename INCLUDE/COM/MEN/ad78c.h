@@ -3,8 +3,6 @@
  *        \file  ad78c.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2010/02/24 11:04:12 $
- *    $Revision: 1.5 $
  *
  *  	 \brief  Header file for AD78C controller - SMB address map
  *

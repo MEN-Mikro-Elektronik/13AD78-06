@@ -6,8 +6,6 @@
 /*!
  *         \file ad78_simp.c
  *       \author dieter.pfeuffer@men.de
- *        $Date: 2009/09/01 09:45:32 $
- *    $Revision: 1.3 $
  *
  *        \brief Simple example program for the AD78 driver.
  *
@@ -43,6 +41,8 @@
 #include <MEN/ad78_drv.h>
 #include <MEN/ad78c.h>
 #include <MEN/wdog.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   PROTOTYPES                          |

@@ -3,8 +3,6 @@
  *        \file  ad78_drv.c
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2010/10/08 15:44:06 $
- *    $Revision: 1.7 $
  *
  *      \brief   Low-level driver for PIC on SMBus at AD78 PSU
  *
@@ -113,6 +111,8 @@ typedef struct {
 /* include files which need LL_HANDLE */
 #include <MEN/ll_entry.h>   /* low-level driver jump table  */
 #include <MEN/ad78_drv.h>	/* AD78 driver header file */
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*-----------------------------------------+
   |  PROTOTYPES                              |

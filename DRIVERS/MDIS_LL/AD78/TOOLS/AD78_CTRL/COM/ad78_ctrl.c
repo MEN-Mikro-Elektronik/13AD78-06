@@ -6,8 +6,6 @@
 /*!
  *         \file ad78_ctrl.c
  *       \author dieter.pfeuffer@men.de
- *        $Date: 2009/08/31 14:35:47 $
- *    $Revision: 1.4 $
  *
  *        \brief Tool to control AD78 PIC
  *
@@ -41,6 +39,8 @@
 #include <MEN/mdis_api.h>
 #include <MEN/ad78_drv.h>
 #include <MEN/ad78c.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   GLOBALS                             |
@@ -98,7 +98,7 @@ static void usage(void)
 	printf("    -T=<limit>   set temperature high limit [degree celsius]\n");
 	printf("    -I           get binary i/o, temp and volt (in a loop) \n");
 	printf("\n");
-	printf("(c) 2006 by MEN mikro elektronik GmbH\n\n");
+	printf("Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /********************************* main ************************************/
