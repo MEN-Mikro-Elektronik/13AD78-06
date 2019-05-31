@@ -42,7 +42,6 @@
 #include <MEN/ad78c.h>
 #include <MEN/wdog.h>
 
-static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   PROTOTYPES                          |
