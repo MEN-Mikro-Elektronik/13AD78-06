@@ -112,6 +112,7 @@ typedef struct {
 #include <MEN/ll_entry.h>   /* low-level driver jump table  */
 #include <MEN/ad78_drv.h>	/* AD78 driver header file */
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*-----------------------------------------+
   |  PROTOTYPES                              |
@@ -1428,7 +1429,7 @@ static int32 AD78_Info(
  */
 static char* Ident( void )
 {
-    return( "AD78 - AD78 low-level driver: $Id: ad78_drv.c,v 1.7 2010/10/08 15:44:06 ts Exp $" );
+    return( (char*) IdentString );
 }
 
 /********************************* Cleanup *********************************/
