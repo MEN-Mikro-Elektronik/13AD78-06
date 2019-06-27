@@ -1272,13 +1272,13 @@ static int CheckRstErroffErrcount(
 	int32	val;
 
 	/* number of missing ON Acknowledges - ckeck before reset flag */
-	if ((M_getstat(G_Path, AD78_ONACK_ERR, ackErr)) < 0) {
+	if ((M_getstat(G_Path, AD78_ONACK_ERR, (int32 *)ackErr)) < 0) {
 		PrintMdisError("getstat AD78_ONACK_ERR");
 		return 1;
 	}
 
 	/* number of missing watchdog triggers - ckeck before reset flag */
-	if ((M_getstat(G_Path, AD78_WDOG_ERR, wdogErr)) < 0) {
+	if ((M_getstat(G_Path, AD78_WDOG_ERR, (int32 *)wdogErr)) < 0) {
 		PrintMdisError("getstat AD78_WDOG_ERR");
 		return 1;
 	}
@@ -1318,13 +1318,13 @@ static int CheckRstErroffErrcount(
 		G_TimeStart = oldTimeStart;
 
 		/* number of missing ON Acknowledges - update after restart */
-		if ((M_getstat(G_Path, AD78_ONACK_ERR, ackErr)) < 0) {
+		if ((M_getstat(G_Path, AD78_ONACK_ERR, (int32 *)ackErr)) < 0) {
 			PrintMdisError("getstat AD78_ONACK_ERR");
 			return 1;
 		}
 
 		/* number of missing watchdog triggers - update after restart */
-		if ((M_getstat(G_Path, AD78_WDOG_ERR, wdogErr)) < 0) {
+		if ((M_getstat(G_Path, AD78_WDOG_ERR, (int32 *)wdogErr)) < 0) {
 			PrintMdisError("getstat AD78_WDOG_ERR");
 			return 1;
 		}
@@ -1344,13 +1344,13 @@ static int CheckRstErroffErrcount(
 			return 1;
 		}
 		/* number of missing ON Acknowledges - update after reset */
-		if ((M_getstat(G_Path, AD78_ONACK_ERR, ackErr)) < 0) {
+		if ((M_getstat(G_Path, AD78_ONACK_ERR, (int32 *)ackErr)) < 0) {
 			PrintMdisError("getstat AD78_ONACK_ERR");
 			return 1;
 		}
 
 		/* number of missing watchdog triggers - update after reset */
-		if ((M_getstat(G_Path, AD78_WDOG_ERR, wdogErr)) < 0) {
+		if ((M_getstat(G_Path, AD78_WDOG_ERR, (int32 *)wdogErr)) < 0) {
 			PrintMdisError("getstat AD78_WDOG_ERR");
 			return 1;
 		}
