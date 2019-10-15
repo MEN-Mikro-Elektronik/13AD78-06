@@ -80,54 +80,55 @@
 <tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a17">SMB_R_BYTE</a>(cmd, valP)</td></tr>
 
 <tr><td colspan=2><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a18">AD78_Init</a> (DESC_SPEC *descSpec, OSS_HANDLE *osHdl, MACCESS *ma, OSS_SEM_HANDLE *devSemHdl, OSS_IRQ_HANDLE *irqHdl, <a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a19">AD78_Init</a> (DESC_SPEC *descSpec, OSS_HANDLE *osHdl, MACCESS *ma, OSS_SEM_HANDLE *devSemHdl, OSS_IRQ_HANDLE *irqHdl, <a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Allocate and return low-level handle, initialize hardware. </em> <a href="#a18"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a19">AD78_Exit</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Allocate and return low-level handle, initialize hardware. </em> <a href="#a19"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a20">AD78_Exit</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> **llHdlP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">De-initialize hardware and clean up memory. </em> <a href="#a19"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a20">AD78_Read</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 *value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">De-initialize hardware and clean up memory. </em> <a href="#a20"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a21">AD78_Read</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 *value)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a value from the device. </em> <a href="#a20"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a21">AD78_Write</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a value from the device. </em> <a href="#a21"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a22">AD78_Write</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, int32 value)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a value to the device. </em> <a href="#a21"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a22">AD78_SetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 code, int32 ch, INT32_OR_64 value32_or_64)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a value to the device. </em> <a href="#a22"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a23">AD78_SetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 code, int32 ch, INT32_OR_64 value32_or_64)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set the driver status. </em> <a href="#a22"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a23">AD78_GetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 code, int32 ch, INT32_OR_64 *value32_or_64P)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set the driver status. </em> <a href="#a23"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a24">AD78_GetStat</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 code, int32 ch, INT32_OR_64 *value32_or_64P)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the driver status. </em> <a href="#a23"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a24">AD78_BlockRead</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrRdBytesP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the driver status. </em> <a href="#a24"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a25">AD78_BlockRead</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrRdBytesP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a data block from the device. </em> <a href="#a24"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a25">AD78_BlockWrite</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrWrBytesP)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read a data block from the device. </em> <a href="#a25"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a26">AD78_BlockWrite</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 ch, void *buf, int32 size, int32 *nbrWrBytesP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a data block from the device. </em> <a href="#a25"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a26">AD78_Irq</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Write a data block from the device. </em> <a href="#a26"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a27">AD78_Irq</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Interrupt service routine - unused. </em> <a href="#a26"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a27">AD78_Info</a> (int32 infoType,...)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Interrupt service routine - unused. </em> <a href="#a27"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a28">AD78_Info</a> (int32 infoType,...)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get information about hardware and driver requirements. </em> <a href="#a27"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>char *&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a28">Ident</a> (void)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get information about hardware and driver requirements. </em> <a href="#a28"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>char *&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a29">Ident</a> (void)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Return ident string. </em> <a href="#a28"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a29">Cleanup</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 retCode)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Return ident string. </em> <a href="#a29"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a30">Cleanup</a> (<a class="el" href="structLL__HANDLE.html">LL_HANDLE</a> *llHdl, int32 retCode)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Close all handles, free memory and return error code. </em> <a href="#a29"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a30">AlarmHandler</a> (void *arg)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Close all handles, free memory and return error code. </em> <a href="#a30"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a31">AlarmHandler</a> (void *arg)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a31">__AD78_GetEntry</a> (LL_ENTRY *drvP)</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a32">__AD78_GetEntry</a> (LL_ENTRY *drvP)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialize driver's jump table. </em> <a href="#a31"></a><em><br><br></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialize driver's jump table. </em> <a href="#a32"></a><em><br><br></td></tr>
+<tr><td colspan=2><br><h2>Variables</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>const char&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__drv_8c.html#a18">IdentString</a> [] = MENT_XSTR(MAK_REVISION)</td></tr>
+
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 Low-level driver for PIC on SMBus at AD78 PSU. 
 <p>
-<dl compact><dt><b>Author:</b></dt><dd><a href="mailto:dieter.pfeuffer@men.de">dieter.pfeuffer@men.de</a> <dl compact><dt><b>Date</b></dt><dd>2010/10/08 15:44:06 </dd></dl>
-<dl compact><dt><b>Revision</b></dt><dd>1.7 </dd></dl>
-</dd></dl>
+<dl compact><dt><b>Author:</b></dt><dd><a href="mailto:dieter.pfeuffer@men.de">dieter.pfeuffer@men.de</a></dd></dl>
 <p>
 Required: OSS, DESC, DBG, libraries<p>
 <dl compact><dt><b>Preprocessor Switches:</b></dt><dd>_ONE_NAMESPACE_PER_DRIVER_</dd></dl>
@@ -574,7 +575,7 @@ Interrupt required.
   </tr>
 </table>
 <hr><h2>Function Documentation</h2>
-<a name="a31" doxytag="ad78_drv.c::__AD78_GetEntry"></a><p>
+<a name="a32" doxytag="ad78_drv.c::__AD78_GetEntry"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -610,7 +611,7 @@ Initialize driver's jump table.
     </td>
   </tr>
 </table>
-<a name="a24" doxytag="ad78_drv.c::AD78_BlockRead"></a><p>
+<a name="a25" doxytag="ad78_drv.c::AD78_BlockRead"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -679,7 +680,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a25" doxytag="ad78_drv.c::AD78_BlockWrite"></a><p>
+<a name="a26" doxytag="ad78_drv.c::AD78_BlockWrite"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -748,7 +749,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a19" doxytag="ad78_drv.c::AD78_Exit"></a><p>
+<a name="a20" doxytag="ad78_drv.c::AD78_Exit"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -786,7 +787,7 @@ The function deinitializes the AD78 device.<p>
     </td>
   </tr>
 </table>
-<a name="a23" doxytag="ad78_drv.c::AD78_GetStat"></a><p>
+<a name="a24" doxytag="ad78_drv.c::AD78_GetStat"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -849,7 +850,7 @@ The driver supports <a class="el" href="ad78__drv_8h.html#ad78_getset_codes">the
     </td>
   </tr>
 </table>
-<a name="a27" doxytag="ad78_drv.c::AD78_Info"></a><p>
+<a name="a28" doxytag="ad78_drv.c::AD78_Info"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -910,7 +911,7 @@ The LL_INFO_LOCKMODE code returns which process locking mode the driver needs (L
     </td>
   </tr>
 </table>
-<a name="a18" doxytag="ad78_drv.c::AD78_Init"></a><p>
+<a name="a19" doxytag="ad78_drv.c::AD78_Init"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -987,7 +988,7 @@ The function decodes <a class="el" href="index.html#descriptor_entries">these de
     </td>
   </tr>
 </table>
-<a name="a26" doxytag="ad78_drv.c::AD78_Irq"></a><p>
+<a name="a27" doxytag="ad78_drv.c::AD78_Irq"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1025,7 +1026,7 @@ If the driver can detect the interrupt's cause it returns LL_IRQ_DEVICE or LL_IR
     </td>
   </tr>
 </table>
-<a name="a20" doxytag="ad78_drv.c::AD78_Read"></a><p>
+<a name="a21" doxytag="ad78_drv.c::AD78_Read"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1080,7 +1081,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a22" doxytag="ad78_drv.c::AD78_SetStat"></a><p>
+<a name="a23" doxytag="ad78_drv.c::AD78_SetStat"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1142,7 +1143,7 @@ The driver supports <a class="el" href="ad78__drv_8h.html#ad78_getset_codes">the
     </td>
   </tr>
 </table>
-<a name="a21" doxytag="ad78_drv.c::AD78_Write"></a><p>
+<a name="a22" doxytag="ad78_drv.c::AD78_Write"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1197,7 +1198,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a30" doxytag="ad78_drv.c::AlarmHandler"></a><p>
+<a name="a31" doxytag="ad78_drv.c::AlarmHandler"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1226,7 +1227,7 @@ The function is not supported and always returns an ERR_LL_ILL_FUNC error.<p>
     </td>
   </tr>
 </table>
-<a name="a29" doxytag="ad78_drv.c::Cleanup"></a><p>
+<a name="a30" doxytag="ad78_drv.c::Cleanup"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1274,7 +1275,7 @@ Close all handles, free memory and return error code.
     </td>
   </tr>
 </table>
-<a name="a28" doxytag="ad78_drv.c::Ident"></a><p>
+<a name="a29" doxytag="ad78_drv.c::Ident"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1306,6 +1307,29 @@ Return ident string.
     </td>
   </tr>
 </table>
+<hr><h2>Variable Documentation</h2>
+<a name="a18" doxytag="ad78_drv.c::IdentString"></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> const char <a class="el" href="wdog__test_8c.html#a0">IdentString</a>[] = MENT_XSTR(MAK_REVISION)<code> [static]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
 
 	</div>
 </div>
@@ -1313,8 +1337,7 @@ Return ident string.
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 

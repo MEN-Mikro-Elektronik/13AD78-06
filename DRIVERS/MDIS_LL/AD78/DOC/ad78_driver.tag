@@ -24,55 +24,61 @@
     <member kind="function" static="yes">
       <type>void</type>
       <name>usage</name>
-      <anchor>a5</anchor>
+      <anchor>a6</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>PrintMdisError</name>
-      <anchor>a6</anchor>
+      <anchor>a7</anchor>
       <arglist>(char *info)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>PrintUosError</name>
-      <anchor>a7</anchor>
+      <anchor>a8</anchor>
       <arglist>(char *info)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>ShowIo</name>
-      <anchor>a8</anchor>
+      <anchor>a9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void __MAPILIB</type>
       <name>SigHandler</name>
-      <anchor>a9</anchor>
+      <anchor>a10</anchor>
       <arglist>(u_int32 sigCode)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>main</name>
-      <anchor>a10</anchor>
+      <anchor>a11</anchor>
       <arglist>(int argc, char *argv[])</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>const char</type>
+      <name>IdentString</name>
+      <anchor>a2</anchor>
+      <arglist>[]</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>MDIS_PATH</type>
       <name>G_Path</name>
-      <anchor>a2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>u_int32</type>
-      <name>G_SigCountSdEvt</name>
       <anchor>a3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>u_int32</type>
-      <name>G_SigCountOthers</name>
+      <name>G_SigCountSdEvt</name>
       <anchor>a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>u_int32</type>
+      <name>G_SigCountOthers</name>
+      <anchor>a5</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -197,86 +203,92 @@
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Init</name>
-      <anchor>a18</anchor>
+      <anchor>a19</anchor>
       <arglist>(DESC_SPEC *descSpec, OSS_HANDLE *osHdl, MACCESS *ma, OSS_SEM_HANDLE *devSemHdl, OSS_IRQ_HANDLE *irqHdl, LL_HANDLE **llHdlP)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Exit</name>
-      <anchor>a19</anchor>
+      <anchor>a20</anchor>
       <arglist>(LL_HANDLE **llHdlP)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Read</name>
-      <anchor>a20</anchor>
+      <anchor>a21</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 ch, int32 *value)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Write</name>
-      <anchor>a21</anchor>
+      <anchor>a22</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 ch, int32 value)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_SetStat</name>
-      <anchor>a22</anchor>
+      <anchor>a23</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 code, int32 ch, INT32_OR_64 value32_or_64)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_GetStat</name>
-      <anchor>a23</anchor>
+      <anchor>a24</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 code, int32 ch, INT32_OR_64 *value32_or_64P)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_BlockRead</name>
-      <anchor>a24</anchor>
+      <anchor>a25</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 ch, void *buf, int32 size, int32 *nbrRdBytesP)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_BlockWrite</name>
-      <anchor>a25</anchor>
+      <anchor>a26</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 ch, void *buf, int32 size, int32 *nbrWrBytesP)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Irq</name>
-      <anchor>a26</anchor>
+      <anchor>a27</anchor>
       <arglist>(LL_HANDLE *llHdl)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>AD78_Info</name>
-      <anchor>a27</anchor>
+      <anchor>a28</anchor>
       <arglist>(int32 infoType,...)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>char *</type>
       <name>Ident</name>
-      <anchor>a28</anchor>
+      <anchor>a29</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>Cleanup</name>
-      <anchor>a29</anchor>
+      <anchor>a30</anchor>
       <arglist>(LL_HANDLE *llHdl, int32 retCode)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>AlarmHandler</name>
-      <anchor>a30</anchor>
+      <anchor>a31</anchor>
       <arglist>(void *arg)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>__AD78_GetEntry</name>
-      <anchor>a31</anchor>
+      <anchor>a32</anchor>
       <arglist>(LL_ENTRY *drvP)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>const char</type>
+      <name>IdentString</name>
+      <anchor>a18</anchor>
+      <arglist>[]</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -621,97 +633,103 @@
     <member kind="function" static="yes">
       <type>void</type>
       <name>usage</name>
-      <anchor>a18</anchor>
+      <anchor>a19</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>PrintMdisError</name>
-      <anchor>a19</anchor>
+      <anchor>a20</anchor>
       <arglist>(char *info)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>TestSwOffOn</name>
-      <anchor>a20</anchor>
+      <anchor>a21</anchor>
       <arglist>(u_int32 downDelay, u_int32 offDelay, u_int32 wot)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>Wait4DownEvent</name>
-      <anchor>a21</anchor>
+      <anchor>a22</anchor>
       <arglist>(u_int32 timeout)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>Wait4PwrOnOff</name>
-      <anchor>a22</anchor>
+      <anchor>a23</anchor>
       <arglist>(u_int32 state, u_int32 timeout)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>WotDuringDowndelay</name>
-      <anchor>a23</anchor>
+      <anchor>a24</anchor>
       <arglist>(u_int32 timeout)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>TestKeyOffOn</name>
-      <anchor>a24</anchor>
+      <anchor>a25</anchor>
       <arglist>(u_int32 downDelay, u_int32 offDelay)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>TestOffAck</name>
-      <anchor>a25</anchor>
+      <anchor>a26</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>TestOnAck</name>
-      <anchor>a26</anchor>
+      <anchor>a27</anchor>
       <arglist>(u_int32 testLevel)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>TestWdog</name>
-      <anchor>a27</anchor>
+      <anchor>a28</anchor>
       <arglist>(u_int32 wdog)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>CheckRstErroffErrcount</name>
-      <anchor>a28</anchor>
+      <anchor>a29</anchor>
       <arglist>(u_int32 *rst, u_int32 *errOff, u_int32 *ackErr, u_int32 *wdogErr)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>Restart</name>
-      <anchor>a29</anchor>
+      <anchor>a30</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>WdogOnOff</name>
-      <anchor>a30</anchor>
+      <anchor>a31</anchor>
       <arglist>(u_int32 enable)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>main</name>
-      <anchor>a31</anchor>
+      <anchor>a32</anchor>
       <arglist>(int argc, char *argv[])</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>const char</type>
+      <name>IdentString</name>
+      <anchor>a16</anchor>
+      <arglist>[]</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>MDIS_PATH</type>
       <name>G_Path</name>
-      <anchor>a16</anchor>
+      <anchor>a17</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>u_int32</type>
       <name>G_TimeStart</name>
-      <anchor>a17</anchor>
+      <anchor>a18</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1210,43 +1228,49 @@
     <member kind="function" static="yes">
       <type>void</type>
       <name>usage</name>
-      <anchor>a6</anchor>
+      <anchor>a7</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>PrintMdisError</name>
-      <anchor>a7</anchor>
+      <anchor>a8</anchor>
       <arglist>(char *info)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int</type>
       <name>ShowIo</name>
-      <anchor>a8</anchor>
+      <anchor>a9</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>int32</type>
       <name>showInfo</name>
-      <anchor>a9</anchor>
+      <anchor>a10</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>main</name>
-      <anchor>a10</anchor>
+      <anchor>a11</anchor>
       <arglist>(int argc, char *argv[])</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>const char</type>
+      <name>IdentString</name>
+      <anchor>a4</anchor>
+      <arglist>[]</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>MDIS_PATH</type>
       <name>G_Path</name>
-      <anchor>a4</anchor>
+      <anchor>a5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>char *</type>
       <name>G_rail</name>
-      <anchor>a5</anchor>
+      <anchor>a6</anchor>
       <arglist>[3]</arglist>
     </member>
   </compound>
@@ -1579,20 +1603,26 @@
     <member kind="function" static="yes">
       <type>void</type>
       <name>usage</name>
-      <anchor>a0</anchor>
+      <anchor>a1</anchor>
       <arglist>(void)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>void</type>
       <name>PrintMdisError</name>
-      <anchor>a1</anchor>
+      <anchor>a2</anchor>
       <arglist>(char *info)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
       <name>main</name>
-      <anchor>a2</anchor>
+      <anchor>a3</anchor>
       <arglist>(int argc, char *argv[])</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>const char</type>
+      <name>IdentString</name>
+      <anchor>a0</anchor>
+      <arglist>[]</arglist>
     </member>
   </compound>
   <compound kind="struct">

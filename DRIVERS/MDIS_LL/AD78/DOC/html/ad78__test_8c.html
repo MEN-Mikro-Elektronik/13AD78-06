@@ -35,13 +35,13 @@
 
 <tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a3">MSEC_2_MIN_SEC</a>(msec, min, sec)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a4">TIMER_START</a>&nbsp;&nbsp;&nbsp;<a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a> = UOS_MsecTimerGet();</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a4">TIMER_START</a>&nbsp;&nbsp;&nbsp;<a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a> = UOS_MsecTimerGet();</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a5">TIMER_GET_MIN_SEC</a>(min, sec)&nbsp;&nbsp;&nbsp;MSEC_2_MIN_SEC( UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a>, min, sec )</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a5">TIMER_GET_MIN_SEC</a>(min, sec)&nbsp;&nbsp;&nbsp;MSEC_2_MIN_SEC( UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a>, min, sec )</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a6">TIMER_GET_MSEC</a>&nbsp;&nbsp;&nbsp;(UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a> )</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a6">TIMER_GET_MSEC</a>&nbsp;&nbsp;&nbsp;(UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a> )</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a7">TIMER_GET_SEC</a>&nbsp;&nbsp;&nbsp;((UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a>) / 1000 )</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a7">TIMER_GET_SEC</a>&nbsp;&nbsp;&nbsp;((UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a>) / 1000 )</td></tr>
 
 <tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a8">FWARE_DELAY</a>&nbsp;&nbsp;&nbsp;10</td></tr>
 
@@ -60,60 +60,60 @@
 <tr><td class="memItemLeft" nowrap align=right valign=top>#define&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a15">TOUT_MAX</a>(t)&nbsp;&nbsp;&nbsp;((t) + TOUT_OFFSET(t))</td></tr>
 
 <tr><td colspan=2><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a18">usage</a> (void)</td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a19">usage</a> (void)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Print program usage. </em> <a href="#a18"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a19">PrintMdisError</a> (char *info)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Print program usage. </em> <a href="#a19"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>void&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a20">PrintMdisError</a> (char *info)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Print MDIS error message. </em> <a href="#a19"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a20">TestSwOffOn</a> (u_int32 downDelay, u_int32 offDelay, u_int32 wot)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Print MDIS error message. </em> <a href="#a20"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a21">TestSwOffOn</a> (u_int32 downDelay, u_int32 offDelay, u_int32 wot)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test SWOFF, DOWN_DELAY, OFF_DELAY, WOT. </em> <a href="#a20"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a21">Wait4DownEvent</a> (u_int32 timeout)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test SWOFF, DOWN_DELAY, OFF_DELAY, WOT. </em> <a href="#a21"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a22">Wait4DownEvent</a> (u_int32 timeout)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wait for shutdown event. </em> <a href="#a21"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a22">Wait4PwrOnOff</a> (u_int32 state, u_int32 timeout)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wait for shutdown event. </em> <a href="#a22"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a23">Wait4PwrOnOff</a> (u_int32 state, u_int32 timeout)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wait for power on/off. </em> <a href="#a22"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a23">WotDuringDowndelay</a> (u_int32 timeout)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wait for power on/off. </em> <a href="#a23"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a24">WotDuringDowndelay</a> (u_int32 timeout)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">WOT during down delay. </em> <a href="#a23"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a24">TestKeyOffOn</a> (u_int32 downDelay, u_int32 offDelay)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">WOT during down delay. </em> <a href="#a24"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a25">TestKeyOffOn</a> (u_int32 downDelay, u_int32 offDelay)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test key off/on. </em> <a href="#a24"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a25">TestOffAck</a> (void)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test key off/on. </em> <a href="#a25"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a26">TestOffAck</a> (void)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test off acknowledge. </em> <a href="#a25"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a26">TestOnAck</a> (u_int32 testLevel)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test off acknowledge. </em> <a href="#a26"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a27">TestOnAck</a> (u_int32 testLevel)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test on acknowledge. </em> <a href="#a26"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a27">TestWdog</a> (u_int32 wdog)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test on acknowledge. </em> <a href="#a27"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a28">TestWdog</a> (u_int32 wdog)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test watchdog. </em> <a href="#a27"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a28">CheckRstErroffErrcount</a> (u_int32 *rst, u_int32 *errOff, u_int32 *ackErr, u_int32 *wdogErr)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Test watchdog. </em> <a href="#a28"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a29">CheckRstErroffErrcount</a> (u_int32 *rst, u_int32 *errOff, u_int32 *ackErr, u_int32 *wdogErr)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check reset, error-off, ONACK error count, WDOG error count. </em> <a href="#a28"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a29">Restart</a> (void)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check reset, error-off, ONACK error count, WDOG error count. </em> <a href="#a29"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a30">Restart</a> (void)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Restart (SWOFF, SWON). </em> <a href="#a29"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a30">WdogOnOff</a> (u_int32 enable)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Restart (SWOFF, SWON). </em> <a href="#a30"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a31">WdogOnOff</a> (u_int32 enable)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Enable/disable watchdog. </em> <a href="#a30"></a><em><br><br></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a31">main</a> (int argc, char *argv[])</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Enable/disable watchdog. </em> <a href="#a31"></a><em><br><br></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>int&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a32">main</a> (int argc, char *argv[])</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Program main function. </em> <a href="#a31"></a><em><br><br></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Program main function. </em> <a href="#a32"></a><em><br><br></td></tr>
 <tr><td colspan=2><br><h2>Variables</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align=right valign=top><a class="el" href="ad78__drv_8h.html#a35">MDIS_PATH</a>&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a16">G_Path</a></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top>const char&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a16">IdentString</a> [] = MENT_XSTR(MAK_REVISION)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align=right valign=top>u_int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a></td></tr>
+<tr><td class="memItemLeft" nowrap align=right valign=top><a class="el" href="ad78__drv_8h.html#a35">MDIS_PATH</a>&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a17">G_Path</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align=right valign=top>u_int32&nbsp;</td><td class="memItemRight" valign=bottom><a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a></td></tr>
 
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 Test tool for AD78 PIC. 
 <p>
-<dl compact><dt><b>Author:</b></dt><dd><a href="mailto:dieter.pfeuffer@men.de">dieter.pfeuffer@men.de</a> <dl compact><dt><b>Date</b></dt><dd>2009/09/01 09:55:18 </dd></dl>
-<dl compact><dt><b>Revision</b></dt><dd>1.4 </dd></dl>
-</dd></dl>
+<dl compact><dt><b>Author:</b></dt><dd><a href="mailto:dieter.pfeuffer@men.de">dieter.pfeuffer@men.de</a></dd></dl>
 <p>
 Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor Switches:</b></dt><dd>(none)</dd></dl>
 <hr><h2>Define Documentation</h2>
@@ -325,7 +325,7 @@ Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor 
           <td class="md" nowrap>sec&nbsp;</td>
           <td class="mdname1" valign="top" nowrap>          </td>
           <td class="md" valign="top">&nbsp;)&nbsp;</td>
-          <td class="md" nowrap>&nbsp;&nbsp;&nbsp;MSEC_2_MIN_SEC( UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a>, min, sec )
+          <td class="md" nowrap>&nbsp;&nbsp;&nbsp;MSEC_2_MIN_SEC( UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a>, min, sec )
       </table>
     </td>
   </tr>
@@ -347,7 +347,7 @@ Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor 
     <td class="mdRow">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td class="md" nowrap valign="top"> #define TIMER_GET_MSEC&nbsp;&nbsp;&nbsp;(UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a> )
+          <td class="md" nowrap valign="top"> #define TIMER_GET_MSEC&nbsp;&nbsp;&nbsp;(UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a> )
       </table>
     </td>
   </tr>
@@ -369,7 +369,7 @@ Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor 
     <td class="mdRow">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td class="md" nowrap valign="top"> #define TIMER_GET_SEC&nbsp;&nbsp;&nbsp;((UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a>) / 1000 )
+          <td class="md" nowrap valign="top"> #define TIMER_GET_SEC&nbsp;&nbsp;&nbsp;((UOS_MsecTimerGet() - <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a>) / 1000 )
       </table>
     </td>
   </tr>
@@ -391,7 +391,7 @@ Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor 
     <td class="mdRow">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td class="md" nowrap valign="top"> #define TIMER_START&nbsp;&nbsp;&nbsp;<a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a> = UOS_MsecTimerGet();
+          <td class="md" nowrap valign="top"> #define TIMER_START&nbsp;&nbsp;&nbsp;<a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a> = UOS_MsecTimerGet();
       </table>
     </td>
   </tr>
@@ -513,7 +513,7 @@ Required: libraries: mdis_api, usr_oss, usr_utl <dl compact><dt><b>Preprocessor 
   </tr>
 </table>
 <hr><h2>Function Documentation</h2>
-<a name="a28" doxytag="ad78_test.c::CheckRstErroffErrcount"></a><p>
+<a name="a29" doxytag="ad78_test.c::CheckRstErroffErrcount"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -574,7 +574,7 @@ Check reset, error-off, ONACK error count, WDOG error count.
     </td>
   </tr>
 </table>
-<a name="a31" doxytag="ad78_test.c::main"></a><p>
+<a name="a32" doxytag="ad78_test.c::main"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -621,7 +621,7 @@ Program main function.
     </td>
   </tr>
 </table>
-<a name="a19" doxytag="ad78_test.c::PrintMdisError"></a><p>
+<a name="a20" doxytag="ad78_test.c::PrintMdisError"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -657,7 +657,7 @@ Print MDIS error message.
     </td>
   </tr>
 </table>
-<a name="a29" doxytag="ad78_test.c::Restart"></a><p>
+<a name="a30" doxytag="ad78_test.c::Restart"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -689,7 +689,7 @@ Restart (SWOFF, SWON).
     </td>
   </tr>
 </table>
-<a name="a24" doxytag="ad78_test.c::TestKeyOffOn"></a><p>
+<a name="a25" doxytag="ad78_test.c::TestKeyOffOn"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -736,7 +736,7 @@ Test key off/on.
     </td>
   </tr>
 </table>
-<a name="a25" doxytag="ad78_test.c::TestOffAck"></a><p>
+<a name="a26" doxytag="ad78_test.c::TestOffAck"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -768,7 +768,7 @@ Test off acknowledge.
     </td>
   </tr>
 </table>
-<a name="a26" doxytag="ad78_test.c::TestOnAck"></a><p>
+<a name="a27" doxytag="ad78_test.c::TestOnAck"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -805,7 +805,7 @@ Test on acknowledge.
     </td>
   </tr>
 </table>
-<a name="a20" doxytag="ad78_test.c::TestSwOffOn"></a><p>
+<a name="a21" doxytag="ad78_test.c::TestSwOffOn"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -859,7 +859,7 @@ Test SWOFF, DOWN_DELAY, OFF_DELAY, WOT.
     </td>
   </tr>
 </table>
-<a name="a27" doxytag="ad78_test.c::TestWdog"></a><p>
+<a name="a28" doxytag="ad78_test.c::TestWdog"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -896,7 +896,7 @@ Test watchdog.
     </td>
   </tr>
 </table>
-<a name="a18" doxytag="ad78_test.c::usage"></a><p>
+<a name="a19" doxytag="ad78_test.c::usage"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -927,7 +927,7 @@ Print program usage.
     </td>
   </tr>
 </table>
-<a name="a21" doxytag="ad78_test.c::Wait4DownEvent"></a><p>
+<a name="a22" doxytag="ad78_test.c::Wait4DownEvent"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -964,7 +964,7 @@ Wait for shutdown event.
     </td>
   </tr>
 </table>
-<a name="a22" doxytag="ad78_test.c::Wait4PwrOnOff"></a><p>
+<a name="a23" doxytag="ad78_test.c::Wait4PwrOnOff"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1011,7 +1011,7 @@ Wait for power on/off.
     </td>
   </tr>
 </table>
-<a name="a30" doxytag="ad78_test.c::WdogOnOff"></a><p>
+<a name="a31" doxytag="ad78_test.c::WdogOnOff"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1048,7 +1048,7 @@ Enable/disable watchdog.
     </td>
   </tr>
 </table>
-<a name="a23" doxytag="ad78_test.c::WotDuringDowndelay"></a><p>
+<a name="a24" doxytag="ad78_test.c::WotDuringDowndelay"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
@@ -1086,13 +1086,13 @@ WOT during down delay.
   </tr>
 </table>
 <hr><h2>Variable Documentation</h2>
-<a name="a16" doxytag="ad78_test.c::G_Path"></a><p>
+<a name="a17" doxytag="ad78_test.c::G_Path"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td class="md" nowrap valign="top"> <a class="el" href="ad78__drv_8h.html#a35">MDIS_PATH</a> <a class="el" href="ad78__test_8c.html#a16">G_Path</a><code> [static]</code>
+          <td class="md" nowrap valign="top"> <a class="el" href="ad78__drv_8h.html#a35">MDIS_PATH</a> <a class="el" href="ad78__test_8c.html#a17">G_Path</a><code> [static]</code>
       </table>
     </td>
   </tr>
@@ -1108,13 +1108,35 @@ WOT during down delay.
     </td>
   </tr>
 </table>
-<a name="a17" doxytag="ad78_test.c::G_TimeStart"></a><p>
+<a name="a18" doxytag="ad78_test.c::G_TimeStart"></a><p>
 <table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
   <tr>
     <td class="mdRow">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td class="md" nowrap valign="top"> u_int32 <a class="el" href="ad78__test_8c.html#a17">G_TimeStart</a><code> [static]</code>
+          <td class="md" nowrap valign="top"> u_int32 <a class="el" href="ad78__test_8c.html#a18">G_TimeStart</a><code> [static]</code>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a name="a16" doxytag="ad78_test.c::IdentString"></a><p>
+<table class="mdTable" width="100%" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top"> const char <a class="el" href="wdog__test_8c.html#a0">IdentString</a>[] = MENT_XSTR(MAK_REVISION)<code> [static]</code>
       </table>
     </td>
   </tr>
@@ -1137,8 +1159,7 @@ WOT during down delay.
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 

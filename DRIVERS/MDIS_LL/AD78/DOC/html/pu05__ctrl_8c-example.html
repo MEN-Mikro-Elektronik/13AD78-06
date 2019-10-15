@@ -50,6 +50,8 @@
 <span class="preprocessor">#include &lt;<a class="code" href="ad78c_8h.html">MEN/ad78c.h</a>&gt;</span>
 <span class="preprocessor">#include &lt;<a class="code" href="pu05c_8h.html">MEN/pu05c.h</a>&gt;</span>
 
+<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> IdentString[]=MENT_XSTR(MAK_REVISION);
+
 <span class="comment">/*--------------------------------------+</span>
 <span class="comment">|   GLOBALS                             |</span>
 <span class="comment">+--------------------------------------*/</span>
@@ -81,13 +83,13 @@
 <span class="comment">/*--------------------------------------+</span>
 <span class="comment">|   PROTOTYPES                          |</span>
 <span class="comment">+--------------------------------------*/</span>
-<span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a28"></a><a class="code" href="ad78__ctrl_8c.html#a5">usage</a>(<span class="keywordtype">void</span>);
-<span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a29"></a><a class="code" href="ad78__ctrl_8c.html#a6">PrintMdisError</a>(<span class="keywordtype">char</span> *info);
-<span class="keyword">static</span> <span class="keywordtype">int</span> <a name="a30"></a><a class="code" href="ad78__ctrl_8c.html#a8">ShowIo</a>(<span class="keywordtype">void</span>);
+<span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a28"></a><a class="code" href="ad78__ctrl_8c.html#a6">usage</a>(<span class="keywordtype">void</span>);
+<span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a29"></a><a class="code" href="ad78__ctrl_8c.html#a7">PrintMdisError</a>(<span class="keywordtype">char</span> *info);
+<span class="keyword">static</span> <span class="keywordtype">int</span> <a name="a30"></a><a class="code" href="ad78__ctrl_8c.html#a9">ShowIo</a>(<span class="keywordtype">void</span>);
 
 
 <span class="comment">/********************************* usage ***********************************/</span>
-<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="ad78__ctrl_8c.html#a5">usage</a>(<span class="keywordtype">void</span>)
+<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="ad78__ctrl_8c.html#a6">usage</a>(<span class="keywordtype">void</span>)
 {
     printf(<span class="stringliteral">"Usage: pu05_ctrl [&lt;opts&gt;] &lt;device&gt; [&lt;opts&gt;]\n"</span>);
     printf(<span class="stringliteral">"Function: Control extra functions in PU05 which are not part\n"</span>);
@@ -103,12 +105,12 @@
     printf(<span class="stringliteral">" -i=&lt;volt&gt; set low current limit of rail -r               [mA]\n"</span>);
     printf(<span class="stringliteral">" -l        display currents/voltages/temperature in a loop \n"</span>);
     printf(<span class="stringliteral">"\n"</span>);
-    printf(<span class="stringliteral">"(c) 2009 by MEN mikro elektronik GmbH\n\n"</span>);
+    printf(<span class="stringliteral">"Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n"</span>, IdentString);
 }
 
 
 <span class="comment">/********************************* main ************************************/</span>
-<span class="keyword">static</span> int32 <a name="a31"></a><a class="code" href="pu05__ctrl_8c.html#a9">showInfo</a>(<span class="keywordtype">void</span>)
+<span class="keyword">static</span> int32 <a name="a31"></a><a class="code" href="pu05__ctrl_8c.html#a10">showInfo</a>(<span class="keywordtype">void</span>)
 {
     int32 val = 0;
     printf(<span class="stringliteral">"current settings:\n"</span>);
@@ -171,7 +173,7 @@ abort:
     }
 
     <span class="keywordflow">if</span>( UTL_TSTOPT(<span class="stringliteral">"?"</span>) ){                      <span class="comment">/* help requested ? */</span>
-        <a class="code" href="ad78__ctrl_8c.html#a5">usage</a>();
+        <a class="code" href="ad78__ctrl_8c.html#a6">usage</a>();
         <span class="keywordflow">return</span>(1);
     }
 
@@ -185,7 +187,7 @@ abort:
         }
 
     <span class="keywordflow">if</span>( !device || argc&lt;3 ) {
-        <a class="code" href="ad78__ctrl_8c.html#a5">usage</a>();
+        <a class="code" href="ad78__ctrl_8c.html#a6">usage</a>();
         <span class="keywordflow">return</span>(1);
     }
 
@@ -202,7 +204,7 @@ abort:
 
     <span class="comment">/* -- open path  -- */</span>
     <span class="keywordflow">if</span>( (G_Path = <a name="a38"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a4">M_open</a>(device)) &lt; 0) {
-        <a class="code" href="ad78__ctrl_8c.html#a6">PrintMdisError</a>(<span class="stringliteral">"open"</span>);
+        <a class="code" href="ad78__ctrl_8c.html#a7">PrintMdisError</a>(<span class="stringliteral">"open"</span>);
         <span class="keywordflow">return</span>(1);
     }
 
@@ -243,13 +245,13 @@ abort:
 
     <span class="comment">/* -- current settings -- */</span>
     <span class="keywordflow">if</span>( arg_info != <a class="code" href="ad78__ctrl_8c.html#a0">NONE</a> )
-        <a class="code" href="pu05__ctrl_8c.html#a9">showInfo</a>();
+        <a class="code" href="pu05__ctrl_8c.html#a10">showInfo</a>();
 
     <span class="comment">/* -- show info in loop -- */</span>
     <span class="keywordflow">if</span>( arg_loop != <a class="code" href="ad78__ctrl_8c.html#a0">NONE</a>  ) {
         printf(<span class="stringliteral">"--- press any key to abort ---\n"</span>);
         <span class="keywordflow">do</span> {    <span class="comment">/* repeat until keypress */</span>
-            <span class="keywordflow">if</span>( <a class="code" href="ad78__ctrl_8c.html#a8">ShowIo</a>() )
+            <span class="keywordflow">if</span>( <a class="code" href="ad78__ctrl_8c.html#a9">ShowIo</a>() )
                 <span class="keywordflow">goto</span> abort;
 
             UOS_Delay(1000);
@@ -258,7 +260,7 @@ abort:
 
     <span class="comment">/* --  cleanup -- */</span>
     <span class="keywordflow">if</span>( <a name="a41"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/mdis__api_8c.html#a9">M_close</a>(G_Path) &lt; 0 )
-        <a class="code" href="ad78__ctrl_8c.html#a6">PrintMdisError</a>(<span class="stringliteral">"close"</span>);
+        <a class="code" href="ad78__ctrl_8c.html#a7">PrintMdisError</a>(<span class="stringliteral">"close"</span>);
 
     <span class="keywordflow">return</span>(0);
 abort:
@@ -267,14 +269,14 @@ abort:
 }
 
 <span class="comment">/********************************* PrintMdisError **************************/</span>
-<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="ad78__ctrl_8c.html#a6">PrintMdisError</a>(<span class="keywordtype">char</span> *info)
+<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="ad78__ctrl_8c.html#a7">PrintMdisError</a>(<span class="keywordtype">char</span> *info)
 {
     printf(<span class="stringliteral">"*** can't %s: %s\n"</span>, info, <a name="a42"></a><a class="codeRef" doxygen="mdis_api.tag:../../../../../LIBSRC/MDIS_API/DOC/html/" href="../../../../../LIBSRC/MDIS_API/DOC/html/m__errstr_8c.html#a0">M_errstring</a>(UOS_ErrnoGet()));
 }
 
 
 <span class="comment">/********************************* ShowIo **********************************/</span>
-<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="ad78__ctrl_8c.html#a8">ShowIo</a>( <span class="keywordtype">void</span> )
+<span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="ad78__ctrl_8c.html#a9">ShowIo</a>( <span class="keywordtype">void</span> )
 {
     int32   val, chan;
     <span class="comment">/* temp */</span>
@@ -317,8 +319,7 @@ abort:
 <div class="footer">
 <!-- Footer -->
 	<p class="footer">
-	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>.<br>
-	Copyright &copy; 2019 <a href="http://www.men.de">MEN Mikro Elektronik GmbH</a>. All Rights Reserved.
+	Generated for AD78/PUx MDIS Driver using <a href="http://www.doxygen.org">doxygen</a>. All Rights Reserved.
 	</p>
 </div>
 
