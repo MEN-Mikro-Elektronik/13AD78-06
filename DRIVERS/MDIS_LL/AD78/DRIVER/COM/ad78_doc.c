@@ -178,14 +178,6 @@
     </tr>
     </table>
 
-    \n \subsection ad78_min   Minimum descriptor
-    ad78_min.dsc (see Examples section)\n
-    Demonstrates the minimum set of options necessary for using the driver.
-
-    \n \subsection ad78_max   Maximum descriptor
-    ad78_max.dsc (see Examples section)\n
-    Shows all possible configuration options for this driver.
-
     \n \section codes AD78 specific Getstat/Setstat codes
 
 	For the watchdog functionality, the driver supports the WDOG
@@ -227,8 +219,6 @@
 /** \example ad78_ctrl.c */
 /** \example pu05_ctrl.c */
 /** \example wdog_test.c */
-/** \example ad78_min.dsc */
-/** \example ad78_max.dsc */
 
 /*! \page ad78dummy MEN logo
   \menimages
