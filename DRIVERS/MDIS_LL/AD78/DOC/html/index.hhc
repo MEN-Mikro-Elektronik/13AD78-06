@@ -49,8 +49,6 @@
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Examples"><param name="Local" value="examples.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_ctrl.c"><param name="Local" value="ad78__ctrl_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_max.dsc"><param name="Local" value="ad78__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_min.dsc"><param name="Local" value="ad78__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_simp.c"><param name="Local" value="ad78__simp_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="ad78_win.c"><param name="Local" value="ad78__win_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="pu05_ctrl.c"><param name="Local" value="pu05__ctrl_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>

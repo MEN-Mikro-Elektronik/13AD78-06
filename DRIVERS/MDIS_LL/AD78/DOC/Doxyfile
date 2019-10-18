@@ -1,7 +1,7 @@
 @INCLUDE_PATH = $(MEN_DOXYGENTMPL)
 @INCLUDE = DoxyfileCommon
 
-#MDIS_COMMIT=0cb93f0f7ec3a9515557a13de1f99ba7a2aae0da
+#MDIS_COMMIT=386fe06afce965da780d669e9ab61f5bd49d39cc
 
 PROJECT_NAME           = "AD78/PUx MDIS Driver"
 INPUT                  = ../DRIVER/COM \
