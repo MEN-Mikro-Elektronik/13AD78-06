@@ -14,7 +14,7 @@
  */
  /*
  *---------------------------------------------------------------------------
- * Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2006-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 /*
 * This program is free software: you can redistribute it and/or modify
@@ -120,7 +120,7 @@ static void usage(void)
 	printf("    -f=<time>    show firmware internal state               \n");
 	printf("                   poll all <time> in ms in a loop          \n");
 	printf("\n");
-	printf("Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
+	printf("Copyright 2006-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 /********************************* main ************************************/

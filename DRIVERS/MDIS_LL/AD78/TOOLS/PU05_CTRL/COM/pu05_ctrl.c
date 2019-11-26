@@ -10,7 +10,7 @@
  */
  /*
  *---------------------------------------------------------------------------
- * Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2009-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 /*
 * This program is free software: you can redistribute it and/or modify
@@ -93,7 +93,7 @@ static void usage(void)
     printf(" -i=<volt> set low current limit of rail -r               [mA]\n");
     printf(" -l        display currents/voltages/temperature in a loop \n");
     printf("\n");
-    printf("Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
+    printf("Copyright 2009-2019, MEN Mikro Elektronik GmbH\n%s\n", IdentString);
 }
 
 
